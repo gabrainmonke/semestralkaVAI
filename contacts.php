@@ -6,7 +6,7 @@
     </div>
     <div class="myInfo">
         <p>
-            Hello my name is Richard, and this beautiful web"art" is my way of rising in web industry
+            Hello my name is Richard Gabarík, and this beautiful web"art" is my way of polishing my skill for future
         </p>
         <p>
             Email : risingWebDesigner@web.com <br>
