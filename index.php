@@ -6,7 +6,7 @@
 */
 ?>
     <div class="text">
-        <article>
+        <article class="prvy">
             <h1>First paragraph</h1>
             <p>
                 Cupcake ipsum dolor. Sit amet tootsie roll apple pie. I love topping chocolate bar tart cupcake I love marshmallow I love donut.
@@ -26,7 +26,7 @@
             </p>
         </article>
 
-        <article>
+        <article class="prvy">
             <h1>Second paragraph</h1>
             <p>
                 Cake marshmallow candy jelly beans. Powder toffee fruitcake liquorice macaroon I love pastry tiramisu muffin.

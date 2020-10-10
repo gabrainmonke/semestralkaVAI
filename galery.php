@@ -9,10 +9,10 @@
         </div>
 
         <div class="springImg">
-            <img src="img/jar/jar.png" alt="" height="480px" width="800px">
-            <img src="img/jar/jar2.png" alt="" height="480px" width="800px">
-            <img src="img/jar/jar3.png" alt="" height="480px" width="800px">
-            <img src="img/jar/jar4.png" alt="" height="480px" width="800px">
+            <img src="img/jar/jar.png" alt="">
+            <img src="img/jar/jar2.png" alt="">
+            <img src="img/jar/jar3.png" alt="">
+            <img src="img/jar/jar4.png" alt="">
         </div>
 
     </section>
@@ -24,10 +24,10 @@
         </div>
 
         <div class="summerImg">
-            <img src="img/leto/leto.png" alt="" height="480px" width="800px">
-            <img src="img/leto/leto2.png" alt="" height="480px" width="800px">
-            <img src="img/leto/leto3.png" alt="" height="480px" width="800px">
-            <img src="img/leto/leto4.png" alt="" height="480px" width="800px">
+            <img src="img/leto/leto.png" alt="">
+            <img src="img/leto/leto2.png" alt="">
+            <img src="img/leto/leto3.png" alt="">
+            <img src="img/leto/leto4.png" alt="">
         </div>
 
     </section>

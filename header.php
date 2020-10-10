@@ -13,7 +13,7 @@
                 <ul>
                     <li><a href="index.php">Main</a></li>
                     <li><a href="contacts.php">About me</a></li>
-                    <li><a href="galery.php">Galery</a></li>
+                    <li><a href="galery.php">Gallery</a></li>
                 </ul>
             </nav>
         </div>

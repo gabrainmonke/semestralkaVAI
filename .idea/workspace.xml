@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="prvy upload">
+    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="druhy upload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galery.php" beforeDir="false" afterPath="$PROJECT_DIR$/galery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +55,7 @@
       <updated>1602257587990</updated>
       <workItem from="1602257589027" duration="1270000" />
       <workItem from="1602322113282" duration="11979000" />
-      <workItem from="1602334632936" duration="608000" />
+      <workItem from="1602334632936" duration="7798000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -61,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602335141753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="druhy upload">
+      <created>1602335261729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602335261729</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,7 +79,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prvy upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="prvy upload" />
+    <MESSAGE value="druhy upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="druhy upload" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1602323526822">
@@ -96,10 +107,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602328286094" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602335145264">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602335263175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602335145264" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602335263175" />
+    <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335317875">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602335317875" />
     <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1602328297079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

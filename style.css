@@ -2,10 +2,18 @@ body{
     margin: 0 auto ;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 header{
     height: 4em;
     padding:  1em;
     background-color: black;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
 }
 
 footer{
@@ -54,6 +62,7 @@ main{
 .text{
     display: flex;
     justify-content: space-between;
+    padding-top: 6em;
 }
 
 aside{
@@ -65,7 +74,7 @@ aside img{
 }
 
 article{
-    width: 47%;
+    width: 48%;
     margin-top: 1em;
     height: auto;
     background-color: #F0EFED;
@@ -80,7 +89,7 @@ article h1{
 
 .aboutMe{
     text-align: center;
-    margin: 3em 0;
+    padding: 8em 0 3em 0;
 }
 .myImg img{
     border-radius: 20px;
@@ -92,8 +101,46 @@ article h1{
     font-size: 1.2em;
 }
 
+.springImg,
+.summerImg{
+    text-align: center;
+    padding-top: 1em;
+}
+
+.springText h2,
+.summerText h2{
+    margin-top: 0;
+    padding-top: 5em;
+}
+
+/*
+*media query
+*/
+
+@media screen and (min-width: 900px) {
+    .springImg img,
+    .summerImg img{
+        width: 49%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .prvy{
+        display: block;
+        width: 100%;
+    }
 
 
+}
+
+@media screen and (max-width: 695px) {
+
+    .navigation li {
+        font-size: 0.95em;
+    }
+
+}
 
 
 
