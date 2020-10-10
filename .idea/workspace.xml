@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/semestrálkaVAI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/galery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jar/jar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jar/jar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jar/jar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jar/jar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/leto/leto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/leto/leto2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/leto/leto3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/leto/leto4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mmmmmmm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/spodnyObrazok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="prvy upload">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +24,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,12 +52,24 @@
       <updated>1602257587990</updated>
       <workItem from="1602257589027" duration="1270000" />
       <workItem from="1602322113282" duration="11979000" />
-      <workItem from="1602334632936" duration="320000" />
+      <workItem from="1602334632936" duration="608000" />
     </task>
+    <task id="LOCAL-00001" summary="prvy upload">
+      <created>1602335141753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602335141753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prvy upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="prvy upload" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1602323526822">
@@ -99,10 +96,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602328286094" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602334995008">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602335145264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602334995008" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602335145264" />
     <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1602328297079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
