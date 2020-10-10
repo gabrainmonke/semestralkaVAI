@@ -1,0 +1,100 @@
+body{
+    margin: 0 auto ;
+}
+
+header{
+    height: 4em;
+    padding: 1em;
+    background-color: black;
+}
+
+footer{
+    height: 3em;
+    background-color: black;
+    margin-top: 2em;
+}
+
+.footerText{
+    text-align: center;
+    color: white;
+}
+
+.footerText h2{
+    margin-top: 10px;
+
+}
+
+.navigation{
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    font-family: serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 10%;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover{
+    text-shadow: 2px 2px red;
+    border-bottom: 2px solid white;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    margin-top: 1em;
+}
+
+aside img{
+    width: 100%;
+}
+
+article{
+    width: 47%;
+    margin-top: 1em;
+    height: auto;
+    background-color: #F0EFED;
+    border-radius: 10px;
+    font-family: serif;
+    font-size: 1.1em;
+}
+article p,
+article h1{
+    margin: 0.7em;
+}
+
+.aboutMe{
+    text-align: center;
+    margin: 3em 0;
+}
+.myImg img{
+    border-radius: 20px;
+    margin-bottom: 4em;
+}
+
+.myInfo{
+    margin-bottom: 7em;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+

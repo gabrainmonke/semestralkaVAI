@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/semestrálkaVAI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/galery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jar/jar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jar/jar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jar/jar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jar/jar4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/leto/leto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/leto/leto2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/leto/leto3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/leto/leto4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mmmmmmm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/spodnyObrazok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
+  <component name="ProjectId" id="1ieAGU3vSCOpHKTXie6MZMUrS8g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\server\semestrálkaVAI" />
+      <recent name="C:\laragon\server\semestrálkaVAI\includes" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="" />
+      <created>1602257587990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602257587990</updated>
+      <workItem from="1602257589027" duration="1270000" />
+      <workItem from="1602322113282" duration="11979000" />
+      <workItem from="1602334632936" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1066" y="201" key="#Inspections" timestamp="1602323526822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1066" y="201" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1602323526822" />
+    <state x="1148" y="166" key="#PHP" timestamp="1602322893375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1148" y="166" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1602322893375" />
+    <state x="1479" y="417" key="Github.ShareDialog" timestamp="1602334713277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1479" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602334713277" />
+    <state x="1444" y="224" key="Github.UntrackedFilesDialog" timestamp="1602334723013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1444" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602334723013" />
+    <state x="1189" y="446" key="NewPhpFileDialog" timestamp="1602257629476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1189" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602257629476" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602328286094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602328286094" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602334995008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602334995008" />
+    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1602328297079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602328297079" />
+  </component>
+</project>
