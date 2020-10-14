@@ -9,7 +9,7 @@
             Hello my name is Richard Gabarík, and this beautiful web"art" is my way of polishing my skill for future
         </p>
         <p>
-            Email : risingWebDesigner@web.com <br>
+            Email : risingWebDeveloper@webMonkeh.com <br>
             Contact : *************************
         </p>
     </div>
