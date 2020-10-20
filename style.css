@@ -124,11 +124,17 @@ article h1{
     text-align: center;
 }
 
-/*
-*media query
-*/
+
+
+
+/********************
+
+*media queries
+
+*********************/
 
 @media screen and (min-width: 900px) {
+
     .springImg img,
     .summerImg img{
         width: 49.5%;
@@ -139,12 +145,11 @@ article h1{
 @media screen and (max-width: 900px) {
 
     .text{
-        display: block;
+        flex-flow: column;
     }
     .prvy{
         width: 100%;
     }
-
 
 }
 
