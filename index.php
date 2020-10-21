@@ -1,9 +1,11 @@
-<?php include_once 'header.php' ?>
+<?php require_once 'header.php'; ?>
 
 <?php
+
 /*
 *   ked presuniem header a footer do includes priečinku tak mi prestane fungovať css
 */
+
 ?>
     <div class="text">
         <article class="prvy">
@@ -92,4 +94,4 @@
         </article>
     </div>
 
-<?php include_once 'footer.php' ?>
+<?php require_once 'footer.php' ?>
