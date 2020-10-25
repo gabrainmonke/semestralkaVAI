@@ -1,3 +1,7 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
 body{
     margin: 0 auto ;
 }
@@ -9,10 +13,10 @@ img{
 
 header{
     height: 4em;
-    padding:  1em;
     background-color: black;
     width: 100%;
     margin-top: 0;
+    padding: 1em 0;
 }
 
 p{
@@ -39,12 +43,15 @@ footer{
     text-align: center;
 }
 
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+}
+
 .navigation li {
     display: inline-block;
-    font-family: serif;
     font-size: 1.5em;
     font-weight: 700;
-    margin: 0 10%;
 }
 
 .navigation a{
@@ -128,9 +135,7 @@ article h1{
 
 
 /********************
-
 *media queries
-
 *********************/
 
 @media screen and (min-width: 900px) {
@@ -149,14 +154,6 @@ article h1{
     }
     .prvy{
         width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 695px) {
-
-    .navigation li {
-        font-size: 0.95em;
     }
 
 }
