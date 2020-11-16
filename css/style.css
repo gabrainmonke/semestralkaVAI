@@ -1,7 +1,3 @@
-*{
-    font-family: 'Lato', sans-serif;
-}
-
 body{
     margin: 0 auto ;
 }
@@ -11,17 +7,68 @@ img{
     height: auto;
 }
 
-header{
+*{
+
+}
+
+/***********
+    HEADER
+************/
+
+header {
     height: 4em;
     background-color: black;
     width: 100%;
     margin-top: 0;
     padding: 1em 0;
 }
-
 p{
     text-align: justify;
 }
+
+.navigation{
+    text-align: center;
+
+}
+
+.navigation li {
+    display: inline-block;
+    font-family: serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover{
+    text-shadow: 2px 2px red;
+    border-bottom: 2px solid white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.theMenu{
+    width: 60%;
+}
+
+.loginMenu{
+    width: 25%;
+}
+
+
+/***********
+    FOOTER
+************/
 
 footer{
     height: 3em;
@@ -39,30 +86,6 @@ footer{
 
 }
 
-.navigation{
-    text-align: center;
-}
-
-.navigation ul{
-    display: flex;
-    justify-content: space-around;
-}
-
-.navigation li {
-    display: inline-block;
-    font-size: 1.5em;
-    font-weight: 700;
-}
-
-.navigation a{
-    text-decoration: none;
-    color: white;
-}
-
-.navigation a:hover{
-    text-shadow: 2px 2px red;
-    border-bottom: 2px solid white;
-}
 
 main{
     margin: auto;
@@ -135,7 +158,9 @@ article h1{
 
 
 /********************
+
 *media queries
+
 *********************/
 
 @media screen and (min-width: 900px) {
@@ -154,6 +179,14 @@ article h1{
     }
     .prvy{
         width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 695px) {
+
+    .navigation li {
+        font-size: 0.95em;
     }
 
 }

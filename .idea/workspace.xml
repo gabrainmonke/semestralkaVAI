@@ -19,8 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 8">
-      <change beforePath="$PROJECT_DIR$/.idea/semestrálkaVAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/semestrálkaVAI.iml" afterDir="false" />
+    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 9">
+      <change afterPath="$PROJECT_DIR$/includes/dbh.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/functions.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/logIn.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/signUp.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logIn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signUp.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
@@ -46,7 +51,6 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -89,7 +93,11 @@
       <workItem from="1603279376042" duration="3466000" />
       <workItem from="1603286806861" duration="1233000" />
       <workItem from="1603660701238" duration="1750000" />
-      <workItem from="1603662461235" duration="2977000" />
+      <workItem from="1603662461235" duration="3326000" />
+      <workItem from="1603665865717" duration="109000" />
+      <workItem from="1603714627921" duration="9000" />
+      <workItem from="1605530576026" duration="6519000" />
+      <workItem from="1605537643039" duration="9520000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -147,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603286831127</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update 8">
+      <created>1603665447228</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603665447228</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +200,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1148" y="166" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1602322893375" />
+    <state x="674" y="364" key="#SQL_Dialects" timestamp="1605546174273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="674" y="364" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1605546174273" />
     <state x="1479" y="417" key="Github.ShareDialog" timestamp="1602334713277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -193,22 +212,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1444" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602334723013" />
-    <state x="1189" y="446" key="NewPhpFileDialog" timestamp="1602569222108">
+    <state x="1189" y="446" key="NewPhpFileDialog" timestamp="1605536710576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1189" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602569222108" />
+    <state x="1189" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605536710576" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1602328286094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602328286094" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603286833320">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603665449854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603286833320" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603665449854" />
     <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335317875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602335317875" />
+    <state x="1010" y="533" width="613" height="1026" key="dock-window-1" timestamp="1605543931357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1010" y="533" width="613" height="1026" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1605543931357" />
+    <state x="1233" y="244" key="run.anything.popup" timestamp="1605533727997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1233" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605533727997" />
     <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1602328297079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

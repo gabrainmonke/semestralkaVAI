@@ -13,11 +13,21 @@
     <header>
         <div class="navigation">
             <nav>
-                <ul>
-                    <li><a href="index.php">Main</a></li>
-                    <li><a href="contacts.php">About me</a></li>
-                    <li><a href="galery.php">Gallery</a></li>
-                </ul>
+                <div class="theMenu">
+                    <ul>
+                        <li><a href="index.php">Main</a></li>
+                        <li><a href="contacts.php">About me</a></li>
+                        <li><a href="galery.php">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="loginMenu">
+                    <ul>
+                        <li><a href="logIn.php">Log In</a></li>
+                        <li><a href="signUp.php">Sing up</a></li>
+                    </ul>
+                </div>
+
             </nav>
         </div>
     </header>
