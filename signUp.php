@@ -1,7 +1,7 @@
 <?php include_once 'header.php' ?>
 
 <section class="signUp">
-    <h2>Log In</h2>
+    <h2>Sign up</h2>
 
     <div class="signUpForm">
         <form action="includes/signUp.inc.php" method="post">
@@ -13,7 +13,34 @@
             <button type="submit" name="submit">Sign up</button>
         </form>
     </div>
+    <?php
+    if (isset($_GET["error"])){
 
+        switch ($_GET["error"]){
+            case "invaliduid" :
+                echo "<p>The name must contain only letters and numbers.</p>";
+                break;
+            case "invalidemail" :
+                echo "<p>This e-mail is invalid. Please try once more or another one.</p>";
+                break;
+            case "passwordsdontmatch" :
+                echo "<p>Passwords does not match. Try again.</p>";
+                break;
+            case "stmtfailed" :
+                echo "<p>Something went wrong. Please, try again.</p>";
+                break;
+            case "usernametaken" :
+                echo "<p>This Username is taken. Please, use another one.</p>";
+                break;
+            case "none" :
+                echo "<p>You have signed up successfully.</p>";
+                break;
+        }
+
+    }
+    ?>
 </section>
+
+
 
 <?php include_once 'footer.php' ?>

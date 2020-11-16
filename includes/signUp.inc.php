@@ -16,13 +16,8 @@ if (isset($_POST["submit"])){
      * Kontrola po odoslaní formulára, či daná registrácia je správne vyplnená
      */
 
-    if (emptyInputSignup($name, $email, $userName, $pwd, $pwdRepeat) !== false){
-        header("location: ../signUp.php?error=emptyinput");
-        exit();
-    }
-
     if (invalidUID($userName) !== false){
-        header("location: ../signUp.php?error=invvaliduid");
+        header("location: ../signUp.php?error=invaliduid");
         exit();
     }
 

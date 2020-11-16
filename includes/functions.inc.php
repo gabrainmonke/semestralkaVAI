@@ -1,16 +1,5 @@
 <?php
 
-
-function emptyInputSignup($name, $email, $userName, $pwd, $pwdRepeat){
-    $result = false;
-    if (empty($name) || empty($email) || empty($userName) || empty($pwd) || empty($pwdRepeat)){
-        $result = true;
-    } else {
-        $result = false;
-    }
-    return $result;
-}
-
 function invalidUID($userName){
     $result = false;
     if (!preg_match(("/^[a-zA-Z0-9]*$/"), $userName)){
@@ -42,7 +31,6 @@ function pwdMatch($pwd,$pwdRepeat){
 }
 
 function uidExists($connection, $userName, $email){
-
 
     $sqlQuery = "SELECT * FROM users 
                  WHERE  usersUID = ? OR usersEmail = ?;";
@@ -77,7 +65,7 @@ function uidExists($connection, $userName, $email){
 
 }
 
-function createUser($connection, $name, $email, $userName, $pwd) {
+function createUser($connection, $name, $email, $username, $pwd) {
 
     $sqlQuery = "INSERT INTO users (usersName, usersEmail, usersUID, usersPWD) 
                  VALUES (?, ?, ?, ?);";
@@ -92,9 +80,33 @@ function createUser($connection, $name, $email, $userName, $pwd) {
 
     $hashedPWD = password_hash($pwd,PASSWORD_DEFAULT);
 
-    mysqli_stmt_bind_param($statement, "ssss", $userName, $email, $userName, $hashedPWD);
+    mysqli_stmt_bind_param($statement, "ssss", $name, $email, $username, $hashedPWD);
     mysqli_stmt_execute($statement);
     mysqli_stmt_close($statement);
     header("location: ../signUp.php?error=none");
     exit();
+}
+
+function loginUser($connection,$userName,$pwd){
+    $userIDExists = uidExists($connection, $userName, $userName);
+
+    if ($userIDExists === false){
+        header("location: ../logIn.php?error=wronglogin");
+        exit();
+    }
+
+    $hashedPWD =  $userIDExists["usersPWD"];
+    $checkPWD = password_verify($pwd, $hashedPWD);
+
+    if ($checkPWD === false){
+        header("location: ../logIn.php?error=wronglogin");
+        exit();
+    } else if ($checkPWD === true){
+        session_start();
+        $_SESSION["userid"] = $userIDExists["usersID"];
+        $_SESSION["useruid"] = $userIDExists["usersUID"];
+        header("location: ../index.php");
+        exit();
+    }
+
 }

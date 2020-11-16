@@ -24,7 +24,7 @@
                 <div class="loginMenu">
                     <ul>
                         <li><a href="logIn.php">Log In</a></li>
-                        <li><a href="signUp.php">Sing up</a></li>
+                        <li><a href="signUp.php">Sign up</a></li>
                     </ul>
                 </div>
 
