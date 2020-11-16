@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 9">
-      <change afterPath="$PROJECT_DIR$/includes/dbh.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/functions.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/logIn.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/signUp.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logIn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signUp.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/functions.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +90,7 @@
       <workItem from="1603665865717" duration="109000" />
       <workItem from="1603714627921" duration="9000" />
       <workItem from="1605530576026" duration="6519000" />
-      <workItem from="1605537643039" duration="9520000" />
+      <workItem from="1605537643039" duration="12049000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -162,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603665447228</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update 9">
+      <created>1605547890666</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605547890667</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +189,8 @@
     <MESSAGE value="update 6" />
     <MESSAGE value="update 7" />
     <MESSAGE value="update 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 8" />
+    <MESSAGE value="update 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 9" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1602323526822">
@@ -220,10 +221,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602328286094" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603665449854">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605547895658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603665449854" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605547895658" />
     <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335317875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
