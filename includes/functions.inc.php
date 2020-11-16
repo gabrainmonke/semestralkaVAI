@@ -53,16 +53,17 @@ function uidExists($connection, $userName, $email){
     if ($row = mysqli_fetch_assoc($resultData)) {
 
         //ak áno vraciame riadok na ktorom sa dáta zhodujú
+        mysqli_stmt_close($statement);
         return $row;
 
     } else {
         //ak nie vieme, že používatela môžeme zaregistrovať
         $result = false;
+        mysqli_stmt_close($statement);
         return $result;
     }
 
     mysqli_stmt_close($statement);
-
 }
 
 function createUser($connection, $name, $email, $username, $pwd) {
@@ -78,7 +79,7 @@ function createUser($connection, $name, $email, $username, $pwd) {
         exit();
     }
 
-    $hashedPWD = password_hash($pwd,PASSWORD_DEFAULT);
+    $hashedPWD = md5($pwd);
 
     mysqli_stmt_bind_param($statement, "ssss", $name, $email, $username, $hashedPWD);
     mysqli_stmt_execute($statement);
@@ -87,26 +88,26 @@ function createUser($connection, $name, $email, $username, $pwd) {
     exit();
 }
 
-function loginUser($connection,$userName,$pwd){
-    $userIDExists = uidExists($connection, $userName, $userName);
+function loginUser($connection, $userName, $pwd){
+   $uidExists = uidExists($connection, $userName, $userName);
 
-    if ($userIDExists === false){
-        header("location: ../logIn.php?error=wronglogin");
-        exit();
-    }
+   if ($uidExists === false){
+       header("location: ../logIn.php?error=wronglogin");
+       exit();
+   }
 
-    $hashedPWD =  $userIDExists["usersPWD"];
-    $checkPWD = password_verify($pwd, $hashedPWD);
+   $pwdHashed = $uidExists["usersPWD"];
 
-    if ($checkPWD === false){
-        header("location: ../logIn.php?error=wronglogin");
-        exit();
-    } else if ($checkPWD === true){
-        session_start();
-        $_SESSION["userid"] = $userIDExists["usersID"];
-        $_SESSION["useruid"] = $userIDExists["usersUID"];
-        header("location: ../index.php");
-        exit();
-    }
+   if (md5($pwd) === $pwdHashed) {
+       session_start();
+       $_SESSION["userID"] = $uidExists["usersID"];
+       $_SESSION["userUID"] = $uidExists["usersUID"];
+       header("location: ../index.php");
+       exit();
+   }
+   else {
+       header("location: ../logIn.php?error=wronglogin");
+       exit();
+   }
 
 }

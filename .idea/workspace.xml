@@ -19,13 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 10 login">
+    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 11 - login/signup done">
+      <change afterPath="$PROJECT_DIR$/includes/logOut.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/functions.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/logIn.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/logIn.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/signUp.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/signUp.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/signUp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/logIn.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,9 @@
       <workItem from="1603665865717" duration="109000" />
       <workItem from="1603714627921" duration="9000" />
       <workItem from="1605530576026" duration="6519000" />
-      <workItem from="1605537643039" duration="19679000" />
+      <workItem from="1605537643039" duration="21545000" />
+      <workItem from="1605559833734" duration="1026000" />
+      <workItem from="1605560885214" duration="8823000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -173,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605550450485</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update 11 - login/signup done">
+      <created>1605558018451</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605558018452</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,13 +213,14 @@
     <MESSAGE value="update 8" />
     <MESSAGE value="update 9" />
     <MESSAGE value="update 10 login" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 10 login" />
+    <MESSAGE value="update 11 - login/signup done" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 11 - login/signup done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1066" y="201" key="#Inspections" timestamp="1602323526822">
+    <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1066" y="201" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1602323526822" />
+    <state x="1066" y="201" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1605562004660" />
     <state x="1148" y="166" key="#PHP" timestamp="1602322893375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,6 +229,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="674" y="364" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1605546174273" />
+    <state x="1044" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605563916505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1044" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605563916505" />
+    <state x="1237" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605570489451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1237" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605570489451" />
     <state x="1479" y="417" key="Github.ShareDialog" timestamp="1602334713277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -225,18 +245,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1444" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602334723013" />
-    <state x="1189" y="446" key="NewPhpFileDialog" timestamp="1605536710576">
+    <state x="1189" y="446" key="NewPhpFileDialog" timestamp="1605570351255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1189" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605536710576" />
+    <state x="1189" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605570351255" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1602328286094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602328286094" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605547895658">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605558045054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605547895658" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605558045054" />
     <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335317875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,9 +269,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1233" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605533727997" />
-    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1602328297079">
+    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605562521226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602328297079" />
+    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605562521226" />
   </component>
 </project>

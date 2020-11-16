@@ -2,13 +2,13 @@
 
 if (isset($_POST["submit"])){
 
-    $userName = $_POST["uid"];
+    $username = $_POST["uid"];
     $pwd = $_POST["pwd"];
 
-    require_once "dbh.inc.php";
+    require "dbh.inc.php";
     require_once "functions.inc.php";
 
-    loginUser($connecction,$userName,$pwd);
+    loginUser($connection, $username, $pwd);
 
 } else {
     header("location: ../logIn.php");
