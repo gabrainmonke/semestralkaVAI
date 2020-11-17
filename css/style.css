@@ -1,3 +1,7 @@
+*{
+    font-family: 'Lato', serif;
+}
+
 body{
     margin: 0 auto ;
 }
@@ -7,13 +11,11 @@ img{
     height: auto;
 }
 
-
 /***********
     HEADER
 ************/
 
 header {
-    height: 4em;
     background-color: black;
     width: 100%;
     margin-top: 0;
@@ -70,23 +72,143 @@ nav{
 ************/
 
 footer{
-    height: 3em;
+    height: 4em;
     background-color: black;
     margin-top: 2em;
-}
-
-.footerText{
-    text-align: center;
+    padding: 0.5em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     color: white;
+    border: black 1px solid;
 }
 
-.footerText h2{
-    margin-top: 10px;
+/******************
+    LOGIN/SIGNUP
+*******************/
 
+.logIn h2,
+.signUp h2{
+    text-align: center;
+}
+
+.logInContainer{
+    padding: 3em;
+    background-color: lightgray;
+    border-radius: 0.6em;
+}
+
+.logIn button,
+.signUp button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    border-radius: 0.3em;
+}
+
+.logIn button:hover,
+.signUp button:hover{
+    background-color: #156717;
+}
+
+.contentWrapper{
+    min-height: 47.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logInForm,
+.signUpForm,
+.editForm{
+    width: 100%;
+    text-align: center;
+}
+
+.logIn input,
+.signUp input,
+.editProfile input{
+    width: 90%;
+    padding: 0.9em;
+    margin: 1.5em 0.5em;
+}
+
+input:hover{
+    border: solid 2px black;
+    border-radius:0.3em;
+}
+
+.signUp p,
+.logIn p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/****************
+    PROFILE
+*****************/
+
+.profileContainer{
+    display: flex;
+    justify-content: space-between;
+    border: #156717 1px solid;
+    width: 65%;
+    padding: 6em;
+    border-radius: 0.8em;
+    background-color: lightgray;
+}
+
+.profileHead div,
+.profileHead p,
+.profileData{
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.links a{
+    padding: 1em 1.5em;
+    background-color: #7aba81;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3em;
+}
+
+.links a:hover{
+    cursor: pointer;
+    background-color: #4ab554;
 }
 
 
-main{
+.profileData p{
+    font-size: x-large;
+}
+
+.profileHead{
+    width: 30%;
+}
+
+.profileHead img{
+    border-radius: 1em;
+}
+
+.profileData{
+    width: 65%;
+}
+
+/**************
+    MAIN
+***************/
+
+.container{
     margin: auto;
     width: 90%;
 }

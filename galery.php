@@ -1,37 +1,37 @@
 <?php include_once 'header.php' ?>
+<div class="container">
+    <div class="galeryContainer">
 
-<div class="galeryContainer">
+        <section class="spring">
 
-    <section class="spring">
+            <div class="springText">
+                <h2>Spring</h2>
+            </div>
 
-        <div class="springText">
-            <h2>Spring</h2>
-        </div>
+            <div class="springImg">
+                <img src="img/jar/jar.png" alt="">
+                <img src="img/jar/jar2.png" alt="">
+                <img src="img/jar/jar3.png" alt="">
+                <img src="img/jar/jar4.png" alt="">
+            </div>
 
-        <div class="springImg">
-            <img src="img/jar/jar.png" alt="">
-            <img src="img/jar/jar2.png" alt="">
-            <img src="img/jar/jar3.png" alt="">
-            <img src="img/jar/jar4.png" alt="">
-        </div>
+        </section>
 
-    </section>
+        <section class="summer">
 
-    <section class="summer">
+            <div class="summerText">
+                <h2>Summer</h2>
+            </div>
 
-        <div class="summerText">
-            <h2>Summer</h2>
-        </div>
+            <div class="summerImg">
+                <img src="img/leto/leto.png" alt="">
+                <img src="img/leto/leto2.png" alt="">
+                <img src="img/leto/leto3.png" alt="">
+                <img src="img/leto/leto4.png" alt="">
+            </div>
 
-        <div class="summerImg">
-            <img src="img/leto/leto.png" alt="">
-            <img src="img/leto/leto2.png" alt="">
-            <img src="img/leto/leto3.png" alt="">
-            <img src="img/leto/leto4.png" alt="">
-        </div>
+        </section>
 
-    </section>
-
+    </div>
 </div>
-
 <?php include_once 'footer.php' ?>

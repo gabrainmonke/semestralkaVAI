@@ -5,7 +5,7 @@ $userID = $_SESSION["userID"];
 
 if (isset($_POST["submit"])){
 
-    require_once "DBhandler.php";
+    require_once "DBconnection.php";
     require_once "functions.php";
 
     $name = $_POST["name"];

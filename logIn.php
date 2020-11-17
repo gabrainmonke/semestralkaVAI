@@ -1,15 +1,18 @@
 <?php include_once 'header.php' ?>
 
-    <section class="logIn">
-        <h2>Log In</h2>
+    <section class="contentWrapper logIn">
+        <div class="logInContainer">
+            <h2>Log In</h2>
+            <div class="logInForm">
+                <form action="includes/loginDocScript.php" method="post">
+                    <input type="text" name="uid" placeholder="Username or Email" required>
+                    <input type="password" name="pwd" placeholder="Password" required>
+                    <div class="">
+                        <button type="submit" name="submit">Log In</button>
+                    </div>
+                </form>
+            </div>
 
-        <div class="logInForm">
-            <form action="includes/loginDocScript.php" method="post">
-                <input type="text" name="uid" placeholder="Username or Email" required>
-                <input type="password" name="pwd" placeholder="Password" required>
-                <button type="submit" name="submit">Log In</button>
-            </form>
-        </div>
 
         <?php
         if (isset($_GET["error"])) {
@@ -18,7 +21,7 @@
             }
         }
         ?>
-
+        </div>
     </section>
 
 <?php include_once 'footer.php'?>

@@ -19,7 +19,7 @@ echo $userID;
 </section>
 
 <?php
-include_once 'includes/DBhandler.php';
+include_once 'includes/DBconnection.php';
 
 if (isset($_POST["yesDelete"])){
 

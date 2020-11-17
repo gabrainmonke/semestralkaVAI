@@ -7,6 +7,7 @@
 */
 
 ?>
+<div class="container">
     <div class="text">
         <article class="prvy">
             <h1>First paragraph</h1>
@@ -93,5 +94,5 @@
             </p>
         </article>
     </div>
-
+</div>
 <?php require_once 'footer.php' ?>

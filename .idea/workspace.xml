@@ -19,12 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 13 - login/logout">
-      <change afterPath="$PROJECT_DIR$/deleteProfile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editProfile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/editDocScript.php" afterDir="false" />
+    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 14 - php done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteProfile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/editProfile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galery.php" beforeDir="false" afterPath="$PROJECT_DIR$/galery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/DBhandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/DBconnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/editDocScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/editDocScript.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/loginDocScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/loginDocScript.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/signupDocScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/signupDocScript.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/logIn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/signUp.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +104,8 @@
       <workItem from="1605537643039" duration="21545000" />
       <workItem from="1605559833734" duration="1026000" />
       <workItem from="1605560885214" duration="35890000" />
-      <workItem from="1605637063727" duration="2278000" />
+      <workItem from="1605637063727" duration="3815000" />
+      <workItem from="1605641607369" duration="14497000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -196,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605614408492</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update 14 - php done">
+      <created>1605640208222</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605640208222</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +244,8 @@
     <MESSAGE value="update 11 - login/signup done" />
     <MESSAGE value="update 12 - login/logout" />
     <MESSAGE value="update 13 - login/logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 13 - login/logout" />
+    <MESSAGE value="update 14 - php done" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 14 - php done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
@@ -267,14 +284,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605619036187" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605614413771">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605640210693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605614413771" />
-    <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335317875">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605640210693" />
+    <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605640169401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602335317875" />
+    <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605640169401" />
     <state x="1010" y="533" width="613" height="1026" key="dock-window-1" timestamp="1605543931357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

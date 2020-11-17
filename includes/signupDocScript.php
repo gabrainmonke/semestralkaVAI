@@ -8,7 +8,7 @@ if (isset($_POST["submit"])){
     $password = $_POST["pwd"];
     $passwordRepeat = $_POST["pwdrepeat"];
 
-    require_once "DBhandler.php";
+    require_once "DBconnection.php";
     require_once "functions.php";
 
     /*
