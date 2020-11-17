@@ -19,16 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 12 - login/logout">
+    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 13 - login/logout">
+      <change afterPath="$PROJECT_DIR$/deleteProfile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editProfile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/editDocScript.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/dbh.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/DBhandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/functions.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/logIn.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/loginDocScript.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/logOut.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/logoutDocScript.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/signUp.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/signupDocScript.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/logIn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/signUp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -99,7 +95,8 @@
       <workItem from="1605530576026" duration="6519000" />
       <workItem from="1605537643039" duration="21545000" />
       <workItem from="1605559833734" duration="1026000" />
-      <workItem from="1605560885214" duration="13894000" />
+      <workItem from="1605560885214" duration="35890000" />
+      <workItem from="1605637063727" duration="2278000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -192,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605570796264</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update 13 - login/logout">
+      <created>1605614408492</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605614408492</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +227,8 @@
     <MESSAGE value="update 10 login" />
     <MESSAGE value="update 11 - login/signup done" />
     <MESSAGE value="update 12 - login/logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 12 - login/logout" />
+    <MESSAGE value="update 13 - login/logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 13 - login/logout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
@@ -258,14 +263,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1189" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605570351255" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1602328286094">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1605619036187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602328286094" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605570797888">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605619036187" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605614413771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605570797888" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605614413771" />
     <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335317875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,9 +287,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1233" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605533727997" />
-    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605562521226">
+    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605615411435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605562521226" />
+    <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605615411435" />
   </component>
 </project>
