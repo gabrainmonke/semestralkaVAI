@@ -4,7 +4,7 @@
     <h2>Sign up</h2>
 
     <div class="signUpForm">
-        <form action="includes/signUp.inc.php" method="post">
+        <form action="includes/signupDocScript.php" method="post">
             <input type="text" name="name" placeholder="Full name" required>
             <input type="text" name="email" placeholder="Email" required>
             <input type="text" name="uid" placeholder="Username" required>
