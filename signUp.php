@@ -31,7 +31,7 @@
                 echo "<p>Something went wrong. Please, try again.</p>";
                 break;
             case "usernametaken" :
-                echo "<p>This Username is taken. Please, use another one.</p>";
+                echo "<p>This Username or Email is taken. Please, use another one.</p>";
                 break;
             case "none" :
                 echo "<p>You have signed up successfully.</p>";

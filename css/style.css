@@ -11,6 +11,10 @@ img{
     height: auto;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 /***********
     HEADER
 ************/
@@ -88,7 +92,8 @@ footer{
 *******************/
 
 .logIn h2,
-.signUp h2{
+.signUp h2,
+.editProfile h2{
     text-align: center;
 }
 
@@ -142,7 +147,8 @@ input:hover{
 }
 
 .signUp p,
-.logIn p{
+.logIn p,
+.editProfile p{
     text-align: center;
     font-size: 1.5em;
 }
@@ -183,7 +189,6 @@ input:hover{
 }
 
 .links a:hover{
-    cursor: pointer;
     background-color: #4ab554;
 }
 
@@ -202,6 +207,46 @@ input:hover{
 
 .profileData{
     width: 65%;
+}
+
+/**************
+    EDITPAGE
+***************/
+
+.editForm button[type="submit"] {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    border-radius: 0.3em;
+}
+
+.editForm button[type="submit"]:hover {
+    background-color: #17b317;
+}
+
+.back {
+    text-align: left;
+    margin-top: 2em;
+}
+
+.back button{
+    padding: 0.5em 0.7em;
+}
+/**************
+    DELETE
+***************/
+
+.deleteForm button[type="submit"] {
+    padding: 0.5em 1em ;
+    border-radius: 0.3em;
+}
+
+.deleteForm form{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /**************
@@ -241,6 +286,10 @@ article h1{
     margin: 0.7em;
 }
 
+/**************
+    ABOUT ME
+***************/
+
 .aboutMe{
     text-align: center;
     padding: 5em 0 3em 0;
@@ -260,6 +309,10 @@ article h1{
 .myInfo p{
     text-align: center;
 }
+
+/**************
+    GALLERY
+***************/
 
 .springImg,
 .summerImg{

@@ -1,22 +1,21 @@
 <?php include_once 'header.php';
 
 $userID = $_SESSION["userID"];
-
-echo $userID;
-
 ?>
 
-<section class="deleteProfile">
-    <h2>Are you sure, that you want to delete your account?</h2>
+<div class="contentWrapper">
+    <section class="deleteProfile">
+        <h2>Are you sure, that you want to delete your account?</h2>
 
-    <div class="deleteForm">
-        <form method="post">
-            <button type="submit" name="yesDelete">Yes</button>
-            <button type="submit" name="noDelete">No</button>
-        </form>
-    </div>
+        <div class="deleteForm">
+            <form method="post">
+                <button type="submit" name="yesDelete">Yes</button>
+                <button type="submit" name="noDelete">No</button>
+            </form>
+        </div>
 
-</section>
+    </section>
+</div>
 
 <?php
 include_once 'includes/DBconnection.php';

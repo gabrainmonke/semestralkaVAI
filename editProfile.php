@@ -10,14 +10,25 @@
                 <input type="text" name="uid" placeholder="new username">
                 <button type="submit" name="submit">Edit </button>
             </form>
-            <a href="profile.php">
-                <button>
-                    Back
-                </button>
-            </a>
+            <div class="back">
+                <a href="profile.php">
+                    <button>Back</button>
+                </a>
+            </div>
         </div>
+        <?php
+        if (isset($_GET["error"])) {
+            if ($_GET["error"] == "uidalreadexists") {
+               echo "<p>This username already exists.</p>";
+            }
 
+            if ($_GET["error"] == "emailalreadyexist") {
+                echo "<p>This Email is already in use.</p>";
+            }
+        }
+        ?>
     </section>
+
 </div>
 
 <?php include_once 'footer.php' ?>

@@ -38,8 +38,20 @@ if (isset($_POST["submit"])){
 
         if (isEmailValid($email)){
 
-            $sqlQuery = "UPDATE users SET usersEmail='$email' WHERE usersID = '$userID'";
-            $result = mysqli_query($connection,$sqlQuery);
+            $emailExists = uidExists($connection,$email,$email);
+
+            if (!$emailExists){
+
+                $sqlQuery = "UPDATE users SET usersEmail='$email' WHERE usersID = '$userID'";
+                $result = mysqli_query($connection,$sqlQuery);
+
+            } else {
+
+                header("location: ../editProfile.php?error=emailalreadyexist");
+                exit();
+
+            }
+
         } else {
 
             header("location: ../editProfile.php?error=invalidemail");
