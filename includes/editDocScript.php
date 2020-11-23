@@ -24,6 +24,10 @@ if (isset($_POST["submit"])){
                 $name = $name[0] . " " .$name[1];
                 $sqlQuery = "UPDATE users SET usersName='$name' WHERE usersID = '$userID'";
                 $result = mysqli_query($connection,$sqlQuery);
+            } else {
+
+                header("location: ../editProfile.php?error=invalidname");
+                exit();
             }
 
         } else {

@@ -18,12 +18,24 @@
         </div>
         <?php
         if (isset($_GET["error"])) {
+            if ($_GET["error"] == "invalidname") {
+                echo "<p>Name can only contain letters.</p>";
+            }
+
             if ($_GET["error"] == "uidalreadexists") {
                echo "<p>This username already exists.</p>";
             }
 
             if ($_GET["error"] == "emailalreadyexist") {
                 echo "<p>This Email is already in use.</p>";
+            }
+
+            if ($_GET["error"] == "invalidusername") {
+                echo "<p>Username can only contain numbers and letters.</p>";
+            }
+
+            if ($_GET["error"] == "invalidemail") {
+                echo "<p>This email does not exist.</p>";
             }
         }
         ?>

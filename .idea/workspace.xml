@@ -19,13 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 15 - almost done">
+    <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 16 - finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteProfile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/editProfile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/editDocScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/editDocScript.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/signUp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/logIn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,15 +56,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\semestralkaVAI" />
+      <recent name="C:\xampp\htdocs\semestralkaVAI\includes" />
       <recent name="C:\laragon\server\semestralkaVAI" />
       <recent name="C:\laragon\server\semestralkaVAI\includes" />
       <recent name="C:\laragon\server\semestralkaVAI\includes\css" />
-      <recent name="C:\laragon\server\semestrálkaVAI\includes" />
-      <recent name="C:\laragon\server\semestrálkaVAI" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -100,7 +100,14 @@
       <workItem from="1605637063727" duration="3815000" />
       <workItem from="1605641607369" duration="14685000" />
       <workItem from="1605686582217" duration="157000" />
-      <workItem from="1605692867559" duration="5471000" />
+      <workItem from="1605692867559" duration="5524000" />
+      <workItem from="1606075651090" duration="372000" />
+      <workItem from="1606124171706" duration="661000" />
+      <workItem from="1606153630837" duration="289000" />
+      <workItem from="1606154794253" duration="690000" />
+      <workItem from="1606158155905" duration="302000" />
+      <workItem from="1606158601213" duration="363000" />
+      <workItem from="1606158975784" duration="1421000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -214,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605656221581</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update 16 - finished">
+      <created>1605698365681</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605698365681</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +262,8 @@
     <MESSAGE value="update 13 - login/logout" />
     <MESSAGE value="update 14 - php done" />
     <MESSAGE value="update 15 - almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 15 - almost done" />
+    <MESSAGE value="update 16 - finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 16 - finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
@@ -259,10 +274,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1148" y="166" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1602322893375" />
-    <state x="674" y="364" key="#SQL_Dialects" timestamp="1605546174273">
+    <state x="673" y="364" key="#SQL_Dialects" timestamp="1606153651426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="674" y="364" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1605546174273" />
+    <state x="673" y="364" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1606153651426" />
     <state x="1044" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605563916505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,6 +286,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1237" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605570489451" />
+    <state x="1053" y="100" width="774" height="847" key="DiffContextDialog" timestamp="1606160179581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1053" y="100" width="774" height="847" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606160179581" />
     <state x="1479" y="417" key="Github.ShareDialog" timestamp="1602334713277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,14 +302,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1189" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605570351255" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1605619036187">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1606159528105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605619036187" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605656225451">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606159528105" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605698367997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605656225451" />
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605698367997" />
     <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605640169401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

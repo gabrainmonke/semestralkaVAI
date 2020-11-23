@@ -59,4 +59,4 @@ $userID = $_SESSION["userID"];
     </section>
 </div>
 
-<?php require_once 'footer.php' ?>
+<?php include_once 'footer.php' ?>
