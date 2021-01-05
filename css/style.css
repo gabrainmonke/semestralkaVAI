@@ -303,7 +303,6 @@ article h1{
 .myInfo{
     margin-bottom: 2em;
     font-size: 1.2em;
-
 }
 
 .myInfo p{
@@ -313,23 +312,60 @@ article h1{
 /**************
     GALLERY
 ***************/
+.selected{
+    background-color: #426e49;
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.season{
+    margin: 1.5em 0 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.season ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.season li{
+    border-radius: 3px;
+    color: black;
+    font-size: 1em;
+    list-style: none;
+
+}
+
+.season a{
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 3px;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.season a:hover{
+    background-color: #426e49;
+    color: #ffffff;
+}
 
 .springImg,
-.summerImg{
+.summerImg,
+.autumnImg,
+.winterImg{
     text-align: center;
     padding-top: 1em;
-
 }
 
-.springText h2,
-.summerText h2{
-    margin-top: 0;
-    padding-top: 3em;
-    text-align: center;
+.commentSection {
+    margin-top: 4em;
 }
-
-
-
 
 /********************
 
@@ -340,7 +376,9 @@ article h1{
 @media screen and (min-width: 900px) {
 
     .springImg img,
-    .summerImg img{
+    .summerImg img,
+    .autumnImg img,
+    .winterImg img{
         width: 49.5%;
     }
 
@@ -364,7 +402,3 @@ article h1{
     }
 
 }
-
-
-
-

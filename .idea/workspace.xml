@@ -20,11 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 16 - finished">
+      <change afterPath="$PROJECT_DIR$/img/autumn/autumn1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/autumn/autumn2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/autumn/autumn3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/autumn/autumn4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/winter/winter1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/winter/winter2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/winter/winter3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/winter/winter4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteProfile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/editProfile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jar/jar.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/spring/spring1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jar/jar2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/spring/spring2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jar/jar3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/spring/spring3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jar/jar4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/spring/spring4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/leto/leto.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/summer/summer1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/leto/leto2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/summer/summer2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/leto/leto3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/summer/summer3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/leto/leto4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/summer/summer4.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +54,19 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
   <component name="ProjectId" id="1ieAGU3vSCOpHKTXie6MZMUrS8g" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,7 +130,11 @@
       <workItem from="1606479163063" duration="79000" />
       <workItem from="1606480517140" duration="628000" />
       <workItem from="1607411733804" duration="153000" />
-      <workItem from="1609849289898" duration="2131000" />
+      <workItem from="1609849289898" duration="3110000" />
+      <workItem from="1609852437003" duration="709000" />
+      <workItem from="1609853162777" duration="213000" />
+      <workItem from="1609853416601" duration="140000" />
+      <workItem from="1609853558810" duration="7620000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -240,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606160559369</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Neprihlásený sa nedostane profil a bude sa musieť prihlásiť">
+      <created>1609851603563</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609851603563</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +288,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="prvy upload" />
     <MESSAGE value="druhy upload" />
     <MESSAGE value="treti upload" />
@@ -275,7 +305,8 @@
     <MESSAGE value="update 14 - php done" />
     <MESSAGE value="update 15 - almost done" />
     <MESSAGE value="update 16 - finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 16 - finished" />
+    <MESSAGE value="Neprihlásený sa nedostane profil a bude sa musieť prihlásiť" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neprihlásený sa nedostane profil a bude sa musieť prihlásiť" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
@@ -306,9 +337,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1053" y="100" width="774" height="847" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606160179581" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1607411878863">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1609853555951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609853555951" />
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607411878863" />
     <state x="1479" y="417" key="Github.ShareDialog" timestamp="1602334713277">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -326,9 +358,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606159528105" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606160561386">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1609851608531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="998" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609851608531" />
     <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606160561386" />
     <state x="1291" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605640169401">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -342,9 +375,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1261" y="295" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605611287159" />
-    <state x="1233" y="244" key="run.anything.popup" timestamp="1605533727997">
+    <state x="1233" y="244" key="run.anything.popup" timestamp="1609860829596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1233" y="244" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609860829596" />
     <state x="1233" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605533727997" />
     <state x="1155" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605615411435">
       <screen x="0" y="0" width="1920" height="1040" />
