@@ -1,6 +1,12 @@
 <?php require_once 'header.php';
 include_once "includes/DBconnection.php";
 $userID = $_SESSION["userID"];
+
+if (!isset($_SESSION["userUID"])){
+    header("Location: http://localhost/semestralkaVAI/login.php");
+    exit();
+}
+
 ?>
 <div class="contentWrapper">
     <section class="profileContainer">

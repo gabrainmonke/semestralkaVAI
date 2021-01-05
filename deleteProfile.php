@@ -1,6 +1,12 @@
 <?php include_once 'header.php';
 
 $userID = $_SESSION["userID"];
+
+if (!isset($_SESSION["userUID"])){
+    header("Location: http://localhost/semestralkaVAI/login.php");
+    exit();
+}
+
 ?>
 
 <div class="contentWrapper">

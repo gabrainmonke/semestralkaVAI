@@ -1,14 +1,31 @@
-<?php include_once 'header.php' ?>
+<?php include_once 'header.php';
+
+if (!isset($_SESSION["userUID"])){
+    header("Location: http://localhost/semestralkaVAI/login.php");
+    exit();
+}
+
+?>
 <div class="contentWrapper">
     <section class="editProfile">
         <h2>Edit your data</h2>
 
         <div class="editForm">
             <form action="includes/editDocScript.php" method="post">
-                <input type="text" name="name" placeholder=" New full name">
-                <input type="text" name="email" placeholder=" New email">
-                <input type="text" name="uid" placeholder="new username">
-                <button type="submit" name="submit">Edit </button>
+                <div>
+                    <label for="name"> New full name</label>
+                    <input type="text" name="name"  maxlength="30">
+                </div>
+                <div>
+                    <label for="name"> New email</label>
+                    <input type="text" name="email"  maxlength="30">
+                </div>
+                <div>
+                    <label for="name"> New username</label>
+                    <input type="text" name="uid" maxlength="30">
+                </div>
+                    <button type="submit" name="submit">Edit </button>
+
             </form>
             <div class="back">
                 <a href="profile.php">
