@@ -14,10 +14,21 @@
         <section class="images">
 
             <div class="summerImg">
-                <img src="includes/galleryContent/img/summer/summer1.png" alt="summerPhoto1">
-                <img src="includes/galleryContent/img/summer/summer2.png" alt="summerPhoto2">
-                <img src="includes/galleryContent/img/summer/summer3.png" alt="summerPhoto3">
-                <img src="includes/galleryContent/img/summer/summer4.png" alt="summerPhoto4">
+                <a href="includes/galleryContent/img/summer/summer1big.jpg" data-lightbox="summer" data-title="Summer themed photo - 1">
+                <img src="includes/galleryContent/img/summer/summer1.jpg" alt="summerPhoto1">
+                </a>
+
+                <a href="includes/galleryContent/img/summer/summer2big.jpg" data-lightbox="summer" data-title="Summer themed photo - 2">
+                <img src="includes/galleryContent/img/summer/summer2.jpg" alt="summerPhoto2">
+                </a>
+
+                <a href="includes/galleryContent/img/summer/summer3big.jpg" data-lightbox="summer" data-title="Summer themed photo - 3">
+                <img src="includes/galleryContent/img/summer/summer3.jpg" alt="summerPhoto3">
+                </a>
+
+                <a href="includes/galleryContent/img/summer/summer4big.jpg" data-lightbox="summer" data-title="Summer themed photo - 4">
+                <img src="includes/galleryContent/img/summer/summer4.jpg" alt="summerPhoto4">
+                </a>
             </div>
 
         </section>

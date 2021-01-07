@@ -14,10 +14,21 @@
         <section class="images">
 
             <div class="winterImg">
-                <img src="includes/galleryContent/img/winter/winter1.png" alt="winterPhoto1">
-                <img src="includes/galleryContent/img/winter/winter2.png" alt="winterPhoto2">
-                <img src="includes/galleryContent/img/winter/winter3.png" alt="winterPhoto3">
-                <img src="includes/galleryContent/img/winter/winter4.png" alt="winterPhoto4">
+                <a href="includes/galleryContent/img/winter/winter1big.jpg" data-lightbox="winter" data-title="Winter themed photo - 1">
+                <img src="includes/galleryContent/img/winter/winter1.jpg" alt="winterPhoto1">
+                </a>
+
+                <a href="includes/galleryContent/img/winter/winter2big.jpg" data-lightbox="winter" data-title="Winter themed photo - 2">
+                <img src="includes/galleryContent/img/winter/winter2.jpg" alt="winterPhoto2">
+                </a>
+
+                <a href="includes/galleryContent/img/winter/winter3big.jpg" data-lightbox="winter" data-title="Winter themed photo - 3">
+                <img src="includes/galleryContent/img/winter/winter3.jpg" alt="winterPhoto3">
+                </a>
+
+                <a href="includes/galleryContent/img/winter/winter4big.jpg" data-lightbox="winter" data-title="Winter themed photo - 4">
+                <img src="includes/galleryContent/img/winter/winter4.jpg" alt="winterPhoto4">
+                </a>
 
             </div>
 
