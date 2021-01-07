@@ -3,7 +3,7 @@
     <div class="aboutMe">
 
         <div class="myImg">
-            <img src="img/mmmmmmm.jpg" alt="myImage">
+            <img src="includes/galleryContent/img/mmmmmmm.jpg" alt="myImage">
         </div>
 
         <div class="myInfo">

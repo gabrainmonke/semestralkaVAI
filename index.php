@@ -50,7 +50,7 @@
         </article>
     </div>
         <aside>
-            <img src="img/spodnyObrazok.png" alt="randomPicture">
+            <img src="includes/galleryContent/img/spodnyObrazok.png" alt="randomPicture">
         </aside>
 
     <div class="text">

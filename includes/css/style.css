@@ -317,8 +317,8 @@ article h1{
     color: white;
 }
 
-.hidden{
-    display: none;
+.images{
+    min-height: 600px;
 }
 
 .season{

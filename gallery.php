@@ -5,59 +5,19 @@
 
         <div class="season">
             <ul>
-                <li><a href="#" class="selected">Spring</a></li>
-                <li><a href="#">Summer</a></li>
-                <li><a href="#">Autumn</a></li>
-                <li><a href="#">Winter</a></li>
+                <li><a href="includes/galleryContent/gallerySpring.php">Spring</a></li>
+                <li><a href="includes/galleryContent/gallerySummer.php">Summer</a></li>
+                <li><a href="includes/galleryContent/galleryAutumn.php">Autumn</a></li>
+                <li><a href="includes/galleryContent/galleryWinter.php">Winter</a></li>
             </ul>
         </div>
 
-        <section class="spring">
+        <section class="images">
 
-            <div class="springImg">
-                <img src="img/spring/spring1.png" alt="springPhoto1">
-                <img src="img/spring/spring2.png" alt="springPhoto2">
-                <img src="img/spring/spring3.png" alt="springPhoto3">
-                <img src="img/spring/spring4.png" alt="springPhoto4">
-            </div>
+            <p>Vyberte si galériu</p>
 
         </section>
-
-        <section class="summer hidden">
-
-            <div class="summerImg">
-                <img src="img/summer/summer1.png" alt="summerPhoto1">
-                <img src="img/summer/summer2.png" alt="summerPhoto2">
-                <img src="img/summer/summer3.png" alt="summerPhoto3">
-                <img src="img/summer/summer4.png" alt="summerPhoto4">
-            </div>
-
-        </section>
-
-        <section class="autumn hidden">
-
-            <div class="autumnImg">
-                <img src="img/autumn/autumn1.jpg" alt="autumnPhoto1">
-                <img src="img/autumn/autumn2.jpg" alt="autumnPhoto2">
-                <img src="img/autumn/autumn3.jpg" alt="autumnPhoto3">
-                <img src="img/autumn/autumn4.jpg" alt="autumnPhoto4">
-
-            </div>
-
-        </section>
-
-        <section class="winter hidden">
-
-            <div class="winterImg">
-                <img src="img/winter/winter1.png" alt="winterPhoto1">
-                <img src="img/winter/winter2.png" alt="winterPhoto2">
-                <img src="img/winter/winter3.png" alt="winterPhoto3">
-                <img src="img/winter/winter4.png" alt="winterPhoto4">
-
-            </div>
-
-        </section>
-
+    </div>
         <section class="commentSection">
             <div class="container">
 
@@ -98,6 +58,7 @@
 
             </div>
         </section>
-    </div>
+
 </div>
+
 <?php include_once 'footer.php' ?>

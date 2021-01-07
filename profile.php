@@ -13,7 +13,7 @@ if (!isset($_SESSION["userUID"])){
 
         <section class="profileHead">
             <div class="profilePicture">
-                <img src="img/defaultUsersPicture.jpg" alt="default-user-img">
+                <img src="includes/galleryContent/img/defaultUsersPicture.jpg" alt="default-user-img">
             </div>
             <p>
                 <a href="#">Change icon</a> <br> (hopefully, coming soon)
