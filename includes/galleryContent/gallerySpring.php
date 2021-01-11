@@ -26,7 +26,7 @@
                 <img src="includes/galleryContent/img/spring/spring3.jpg" alt="springPhoto3">
                 </a>
 
-                <a href="includes/galleryContent/img/spring/spring3big.jpg" data-lightbox="spring" data-title="Spring themed photo - 4">
+                <a href="includes/galleryContent/img/spring/spring4big.jpg" data-lightbox="spring" data-title="Spring themed photo - 4">
                 <img src="includes/galleryContent/img/spring/spring4.jpg" alt="springPhoto4">
                 </a>
             </div>

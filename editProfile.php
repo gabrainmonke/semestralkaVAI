@@ -4,7 +4,12 @@ if (!isset($_SESSION["userUID"])){
     header("Location: http://localhost/semestralkaVAI/login.php");
     exit();
 }
+include_once "includes/DBconnection.php";
+$userID = $_SESSION["userID"];
 
+$sqlQuery = "SELECT usersName,usersEmail,usersUID FROM users WHERE usersID = '$userID'";
+$result = mysqli_query($connection, $sqlQuery);
+$row = mysqli_fetch_assoc($result);
 ?>
 <div class="contentWrapper">
     <section class="editProfile">
@@ -14,15 +19,15 @@ if (!isset($_SESSION["userUID"])){
             <form action="includes/editDocScript.php" method="post">
                 <div>
                     <label for="name"> New full name</label>
-                    <input type="text" name="name"  maxlength="30">
+                    <input type="text" name="name"  maxlength="30" value="<?= $row['usersName']?>">
                 </div>
                 <div>
                     <label for="name"> New email</label>
-                    <input type="text" name="email"  maxlength="30">
+                    <input type="text" name="email"  maxlength="30" value="<?= $row['usersEmail']?>">
                 </div>
                 <div>
                     <label for="name"> New username</label>
-                    <input type="text" name="uid" maxlength="30">
+                    <input type="text" name="uid" maxlength="30" value="<?= $row['usersUID']?>">
                 </div>
                     <button type="submit" name="submit">Edit </button>
 

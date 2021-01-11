@@ -52,11 +52,12 @@ function passwordsMatch($password, $passwordRepeat){
     return $passwordsMatch;
 }
 
-function uidExists($connection, $userName, $email){
+function uidExists($connection, $userName, $email, $userID){
 
     $sqlQuery = "SELECT * 
                  FROM users 
-                 WHERE  usersUID = ? OR usersEmail = ?;";
+                 WHERE  (usersUID = ? OR usersEmail = ?)
+                 AND usersID <> ?;";
 
     $statement = mysqli_stmt_init($connection);
 
@@ -66,7 +67,7 @@ function uidExists($connection, $userName, $email){
         exit();
     }
 
-    mysqli_stmt_bind_param($statement, "ss", $userName, $email);
+    mysqli_stmt_bind_param($statement, "sss", $userName, $email, $userID);
     mysqli_stmt_execute($statement);
     $resultData = mysqli_stmt_get_result($statement);
 
@@ -110,8 +111,8 @@ function createUser($connection, $name, $email, $username, $password) {
     exit();
 }
 
-function loginUser($connection, $userName, $password){
-   $uidExists = uidExists($connection, $userName, $userName);
+function loginUser($connection, $userName, $password,$userID){
+   $uidExists = uidExists($connection, $userName, $userName,$userID);
 
    if ($uidExists === false){
        header("location: ../logIn.php?error=wronglogin");

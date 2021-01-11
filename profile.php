@@ -7,7 +7,11 @@ if (!isset($_SESSION["userUID"])){
     exit();
 }
 
+$sqlQuery = "SELECT usersName,usersEmail,usersUID FROM users WHERE usersID = '$userID'";
+$result = mysqli_query($connection, $sqlQuery);
+$row = mysqli_fetch_assoc($result);
 ?>
+
 <div class="contentWrapper">
     <section class="profileContainer">
 
@@ -24,35 +28,18 @@ if (!isset($_SESSION["userUID"])){
         <section class="profileData">
             <div class="usersFullName">
                 <?php
-
-                $sqlQuery = "SELECT usersName FROM users WHERE usersID = '$userID'";
-                $result = mysqli_query($connection,$sqlQuery);
-                $row = mysqli_fetch_assoc($result);
-
                 echo  "<p> Full name: <b>" . $row['usersName'] . "</b></p>";
-
                 ?>
             </div>
 
             <div class="usersEmail">
                 <?php
-
-                $sqlQuery = "SELECT usersEmail FROM users WHERE usersID = '$userID'";
-                $result = mysqli_query($connection,$sqlQuery);
-                $row = mysqli_fetch_assoc($result);
-
                 echo  "<p>Email: <b>" . $row['usersEmail'] . "</b></p>";
                 ?>
             </div>
             <div class="usersUserName">
                 <?php
-
-                $sqlQuery = "SELECT usersUID FROM users WHERE usersID = '$userID'";
-                $result = mysqli_query($connection,$sqlQuery);
-                $row = mysqli_fetch_assoc($result);
-
                 echo  "<p>Username: <b>" . $row['usersUID'] . "</b></p>";
-
                 ?>
             </div>
             <div class="links">

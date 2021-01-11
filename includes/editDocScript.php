@@ -15,13 +15,11 @@ if (isset($_POST["submit"])){
     if (!empty($name)){
 
         if (strlen($name) > 2){
-            $name = explode(" ",$name, 2);
 
-            $isValidFirst = preg_match(("/^[a-zA-Z]*$/"), $name[0]);
-            $isValidSecond = preg_match(("/^[a-zA-Z]*$/"), $name[1]);
+            $isValid = preg_match("/^\p{L}*\s\p{L}*$/u", $name);
 
-            if ($isValidFirst && $isValidSecond){
-                $name = $name[0] . " " .$name[1];
+            if ($isValid){
+                //die($isValid);
                 $sqlQuery = "UPDATE users SET usersName='$name' WHERE usersID = '$userID'";
                 $result = mysqli_query($connection,$sqlQuery);
             } else {
@@ -42,14 +40,14 @@ if (isset($_POST["submit"])){
 
         if (isEmailValid($email)){
 
-            $emailExists = uidExists($connection,$email,$email);
+            $emailExists = uidExists($connection,$email,$email,$userID);
 
             if (!$emailExists){
 
                 $sqlQuery = "UPDATE users SET usersEmail='$email' WHERE usersID = '$userID'";
                 $result = mysqli_query($connection,$sqlQuery);
 
-            } else {
+            } else{
 
                 header("location: ../editProfile.php?error=emailalreadyexist");
                 exit();
@@ -68,11 +66,13 @@ if (isset($_POST["submit"])){
 
         $userName = str_replace(' ', '', $userName);
 
+       // $isValid = preg_match("/^\p{L}*\s\p{L}*$/u", $name);
+
         $isValid = preg_match(("/^[a-zA-Z]*$/"), $userName);
 
         if ($isValid){
 
-            $uidExists = uidExists($connection,$userName,$userName);
+            $uidExists = uidExists($connection,$userName,$userName,$userID);
 
             if (!$uidExists){
                 $sqlQuery = "UPDATE users SET usersUID='$userName' WHERE usersID = '$userID'";
