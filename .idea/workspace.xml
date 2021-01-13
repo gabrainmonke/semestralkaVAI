@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 16 - finished">
-      <change beforePath="$PROJECT_DIR$/.idea/semestrálkaVAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/semestrálkaVAI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/js/loadComments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/loadCommentsScript.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/editProfile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/editDocScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/editDocScript.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/galleryContent/gallerySpring.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/galleryContent/gallerySpring.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/loginDocScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/loginDocScript.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/includes/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/js/galleryAjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/includes/js/galleryAjax.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="composer.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -144,6 +143,8 @@
       <workItem from="1610044772726" duration="6640000" />
       <workItem from="1610301701670" duration="1592000" />
       <workItem from="1610385506714" duration="7020000" />
+      <workItem from="1610395179788" duration="86000" />
+      <workItem from="1610532237375" duration="10003000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -299,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610051944816</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="opravená edit stránka">
+      <created>1610395227927</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610395227927</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +347,8 @@
     <MESSAGE value="layout galérie" />
     <MESSAGE value="dynamická galéria" />
     <MESSAGE value="galeria hotovo" />
-    <option name="LAST_COMMIT_MESSAGE" value="galeria hotovo" />
+    <MESSAGE value="opravená edit stránka" />
+    <option name="LAST_COMMIT_MESSAGE" value="opravená edit stránka" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
@@ -383,20 +392,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1444" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602334723013" />
-    <state x="1189" y="446" key="NewPhpFileDialog" timestamp="1610302087122">
+    <state x="1189" y="446" key="NewPhpFileDialog" timestamp="1610535333446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1189" y="446" key="NewPhpFileDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610302087122" />
+    <state x="1189" y="446" key="NewPhpFileDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610535333446" />
     <state x="1189" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605570351255" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1610048744534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610048744534" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606159528105" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610051946959">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610395232165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610051946959" />
+    <state x="998" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610395232165" />
     <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606160561386" />
     <state x="571" y="188" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610018460028">
       <screen x="0" y="0" width="1920" height="1040" />

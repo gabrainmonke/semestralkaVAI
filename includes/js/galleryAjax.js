@@ -1,6 +1,5 @@
-$(document).ready(
+$(document).ready(function (){
 
-    (function (){
         $(".galeryContainer").on("click",".season a",function (event){
 
             event.preventDefault();
@@ -17,7 +16,4 @@ $(document).ready(
             })
 
         })
-    })
-
-
-);
+    });

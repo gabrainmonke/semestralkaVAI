@@ -1,5 +1,7 @@
-<?php include_once 'header.php' ?>
-
+<?php include_once 'header.php' ;
+include_once "includes/DBconnection.php";
+//$userID = $_SESSION["userID"];
+?>
 <div class="container">
     <div class="obal">
         <div class="galeryContainer">
@@ -38,29 +40,12 @@
                     </form>
                 </div>
 
-
                 <div class="postedComments">
-                    <?php
-                            echo "<div>";
-                            echo "<h2>Name</h2>";
-                            echo "<p>comment</p>";
-                            echo "<p>date</p>";
-                            echo "</div>";
-                            echo "<div>";
-                            echo "<h2>Name</h2>";
-                            echo "<p>comment</p>";
-                            echo "<p>date</p>";
-                            echo "</div>";
-                            echo "<div>";
-                            echo "<h2>Name</h2>";
-                            echo "<p>comment</p>";
-                            echo "<p>date</p>";
-                            echo "</div>";
 
+                </div>
 
-                       // foreach ();
-
-                    ?>
+                <div class="showMore">
+                        <button>Show more comments</button>
                 </div>
 
             </div>
