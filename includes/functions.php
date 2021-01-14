@@ -112,7 +112,8 @@ function createUser($connection, $name, $email, $username, $password) {
 }
 
 function loginUser($connection, $userName, $password,$userID){
-   $uidExists = uidExists($connection, $userName, $userName,$userID);
+
+   $uidExists = uidExistsLogin($connection, $userName, $userName);
 
    if ($uidExists === false){
        header("location: ../logIn.php?error=wronglogin");
@@ -133,5 +134,61 @@ function loginUser($connection, $userName, $password,$userID){
        header("location: ../logIn.php?error=wronglogin");
        exit();
    }
+
+}
+
+function uidExistsLogin($connection, $userName, $email){
+
+    $sqlQuery = "SELECT * 
+                 FROM users 
+                 WHERE  usersUID = ? OR usersEmail = ?";
+
+    $statement = mysqli_stmt_init($connection);
+
+    //kontrola sql príkazu v databáze
+    if (!mysqli_stmt_prepare($statement, $sqlQuery)) {
+        header("location: ../signUp.php?error=statementfailed");
+        exit();
+    }
+
+    mysqli_stmt_bind_param($statement, "ss", $userName, $email);
+    mysqli_stmt_execute($statement);
+    $resultData = mysqli_stmt_get_result($statement);
+
+    //kontrolujeme či v databáze existuje už záznam s rovnakým usernamom alebo emailom
+    if ($DBrow = mysqli_fetch_assoc($resultData)) {
+
+        //ak áno vraciame riadok na ktorom sa dáta zhodujú
+        mysqli_stmt_close($statement);
+        return $DBrow;
+
+    } else {
+
+        //ak nie vieme, že používatela môžeme zaregistrovať
+        $result = false;
+        mysqli_stmt_close($statement);
+        return $result;
+
+    }
+
+}
+
+function newComment($connection,$author,$message){
+
+    $sqlQuery = "INSERT INTO comments (author,message) 
+                 VALUES (?, ?);";
+
+    $statement = mysqli_stmt_init($connection);
+
+    if (!mysqli_stmt_prepare($statement, $sqlQuery)) {
+        header("location: ../gallery.php?errorAddingComment");
+        exit();
+    }
+
+    mysqli_stmt_bind_param($statement, "ss", $author, $message);
+    mysqli_stmt_execute($statement);
+    mysqli_stmt_close($statement);
+    header("location: ../gallery.php?error=none");
+    exit();
 
 }

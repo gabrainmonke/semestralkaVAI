@@ -1,6 +1,5 @@
-<?php include_once 'header.php' ;
+<?php include_once 'header.php';
 include_once "includes/DBconnection.php";
-//$userID = $_SESSION["userID"];
 ?>
 <div class="container">
     <div class="obal">
@@ -27,29 +26,45 @@ include_once "includes/DBconnection.php";
             </section>
         </div>
     </div>
-        <section class="commentSection">
-            <div class="container">
+    <section class="commentSection">
+        <div class="container">
 
-                <h2>Section for comments</h2>
+            <h2>Section for comments</h2>
+            <div class="newCommentContainer">
+            <?php
+            if (!isset($_SESSION["userUID"])) {
+                echo "You need to be logged in to write new comments";
+            } else {
+                $userID = $_SESSION["userID"];
 
-                <div class="newComment">
-                    <form action="">
-                        <input type="name" value="<?php //vráti meno prihláseneho používatela?>" hidden>
-                        <input type="text">
-                        <input type="date" value="<?php //vráti dátum?>" hidden>
-                    </form>
-                </div>
+                $sqlQuery = "SELECT usersUID FROM users WHERE usersID = '$userID'";
+                $result = mysqli_query($connection, $sqlQuery);
+                $row = mysqli_fetch_assoc($result);
 
-                <div class="postedComments">
+                $userName = $row['usersUID'];
 
-                </div>
-
-                <div class="showMore">
-                        <button>Show more comments</button>
-                </div>
+                echo  '<div class="newComment" >';
+                echo   '<h3>New comment</h3>';
+                echo       '<form action = "includes/sendCommentDocScript.php" method="post">';
+                echo        "You are writing comment as ".'<strong>'.$userName.'</strong>';
+                echo        "<input type = 'text'  name = 'author' value = '$userName' hidden> ";
+                echo        '<input type = "text" name = "message" placeholder="Write your thought" required>';
+                echo        '<button type="submit" name="submit"> Send comment </button >';
+                echo   ' </form >';
+                echo  '</div >';
+                }
+            ?>
+            </div>
+            <div class="postedComments">
 
             </div>
-        </section>
+
+            <div class="showMore">
+                <a href=" " onclick="return false">Show more comments</a>
+            </div>
+
+        </div>
+    </section>
 
 </div>
 

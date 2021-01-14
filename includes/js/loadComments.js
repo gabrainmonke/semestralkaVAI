@@ -2,8 +2,7 @@ $(document).ready(function (){
 
     var commentCount = 0;
 
-    $("button").click(function (){
-
+    $("a").on("click",function (e){
         commentCount = commentCount + 2;
 
         $(".postedComments").load("includes/loadCommentsScript.php", {

@@ -8,7 +8,7 @@ if (isset($_POST["submit"])){
     require "DBconnection.php";
     require_once "functions.php";
 
-    loginUser($connection, $username, $password,$userID);
+    loginUser($connection, $username, $password, $userID);
 
 } else {
     header("location: ../logIn.php");

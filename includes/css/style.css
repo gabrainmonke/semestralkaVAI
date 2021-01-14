@@ -321,16 +321,32 @@ article h1{
     text-align: center;
 }
 
-.comments{
+.comments,
+.newComment{
     width: 90%;
     align-self: center;
     border-bottom: 1px solid black;
+}
+.newComment{
+    border: none;
+}
+
+.newComment input{
+    width: 100%;
+    padding: 0.5em;
+    margin: 1em 0;
 }
 
 .postedComments{
     display: flex;
     flex-flow: column;
     margin-top: 2em;
+}
+
+.newCommentContainer{
+    display: flex;
+    flex-flow: column;
+    margin-top: 3em;
 }
 
 .showMore{
@@ -357,16 +373,17 @@ article h1{
     justify-content: center;
 }
 
-.showMore button{
-    padding: 0.5em 1em;
+.showMore a{
     background-color: #454343;
-    border-radius: 3px;
-    border: 1px solid black;
+    text-decoration: none;
+    padding: 0.5em 1em;
     color: white;
+    border-radius: 3px;
 }
 
-.showMore button:hover{
+.showMore a:hover{
     background-color: #696767;
+    box-shadow: black 3px 3px;
 }
 
 .season ul{
@@ -380,7 +397,6 @@ article h1{
     color: black;
     font-size: 1em;
     list-style: none;
-
 }
 
 .season a{

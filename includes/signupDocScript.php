@@ -30,7 +30,7 @@ if (isset($_POST["submit"])){
         exit();
     }
 
-    if (uidExists($connection, $userName, $email)){
+    if (uidExists($connection, $userName, $email,$userID)){
         //ak v databáze existuje používatel s týmto menom, používatel sa nebude môčt registrovať
         header("location: ../signUp.php?error=usernametaken");
         exit();
