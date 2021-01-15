@@ -81,6 +81,8 @@ if (isset($_POST["submit"])){
 
                 $sqlQueryComments = "UPDATE comments SET author='$userName' WHERE author='$userUID'";
                 $result = mysqli_query($connection,$sqlQueryComments);
+
+                $_SESSION["userUID"] = $userName;
             } else {
 
                 header("location: ../editProfile.php?error=uidalreadexists");
