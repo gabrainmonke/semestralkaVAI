@@ -2,6 +2,7 @@
 
 session_start();
 $userID = $_SESSION["userID"];
+$userUID = $_SESSION["userUID"];
 
 if (isset($_POST["submit"])){
 
@@ -77,6 +78,9 @@ if (isset($_POST["submit"])){
             if (!$uidExists){
                 $sqlQuery = "UPDATE users SET usersUID='$userName' WHERE usersID = '$userID'";
                 $result = mysqli_query($connection,$sqlQuery);
+
+                $sqlQueryComments = "UPDATE comments SET author='$userName' WHERE author='$userUID'";
+                $result = mysqli_query($connection,$sqlQueryComments);
             } else {
 
                 header("location: ../editProfile.php?error=uidalreadexists");
@@ -92,6 +96,8 @@ if (isset($_POST["submit"])){
         }
 
     }
+
+
 
     header("location: ../profile.php");
     exit();

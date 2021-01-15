@@ -8,6 +8,8 @@ if (isset($_POST["submit"])){
     require_once "DBconnection.php";
     require_once "functions.php";
 
+
+
     newComment($connection,$author,$message);
 
 }else {

@@ -49,7 +49,15 @@ $row = mysqli_fetch_assoc($result);
 
         </section>
 
+
+
     </section>
+
+
 </div>
+
+<section class="buttonMyComments">
+        <a href="myComments.php">Show my comments</a>
+</section>
 
 <?php include_once 'footer.php' ?>

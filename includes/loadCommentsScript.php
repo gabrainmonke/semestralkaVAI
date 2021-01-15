@@ -10,7 +10,7 @@
         while($rowFromDB = mysqli_fetch_assoc($queryResult)){
             echo "<div class='comments'>";
             echo "<p>";
-            echo $rowFromDB['author'];
+            echo '<strong>'.$rowFromDB['author'].'</strong>';
             echo "</p>";
             echo "<p>";
             echo $rowFromDB['message'];
