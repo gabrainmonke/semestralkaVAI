@@ -483,6 +483,19 @@ article h1{
 .myCommentsContainer div{
     border-top: black 1px solid;
 }
+
+/**************
+    ADMIN
+***************/
+
+.adminContainer{
+    min-height: 750px;
+
+}
+
+
+
+
 /********************
 
 *media queries

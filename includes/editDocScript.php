@@ -4,7 +4,7 @@ session_start();
 $userID = $_SESSION["userID"];
 $userUID = $_SESSION["userUID"];
 
-if (isset($_POST["submit"])){
+if (isset($_POST["submit"])) {
 
     require_once "DBconnection.php";
     require_once "functions.php";
@@ -13,16 +13,16 @@ if (isset($_POST["submit"])){
     $email = $_POST["email"];
     $userName = $_POST["uid"];
 
-    if (!empty($name)){
+    if (!empty($name)) {
 
-        if (strlen($name) > 2){
+        if (strlen($name) > 2) {
 
             $isValid = preg_match("/^\p{L}*\s\p{L}*$/u", $name);
 
-            if ($isValid){
+            if ($isValid) {
                 //die($isValid);
                 $sqlQuery = "UPDATE users SET usersName='$name' WHERE usersID = '$userID'";
-                $result = mysqli_query($connection,$sqlQuery);
+                $result = mysqli_query($connection, $sqlQuery);
             } else {
 
                 header("location: ../editProfile.php?error=invalidname");
@@ -37,18 +37,18 @@ if (isset($_POST["submit"])){
         }
     }
 
-    if (!empty($email)){
+    if (!empty($email)) {
 
-        if (isEmailValid($email)){
+        if (isEmailValid($email)) {
 
-            $emailExists = uidExists($connection,$email,$email,$userID);
+            $emailExists = uidExists($connection, $email, $email, $userID);
 
-            if (!$emailExists){
+            if (!$emailExists) {
 
                 $sqlQuery = "UPDATE users SET usersEmail='$email' WHERE usersID = '$userID'";
-                $result = mysqli_query($connection,$sqlQuery);
+                $result = mysqli_query($connection, $sqlQuery);
 
-            } else{
+            } else {
 
                 header("location: ../editProfile.php?error=emailalreadyexist");
                 exit();
@@ -63,24 +63,24 @@ if (isset($_POST["submit"])){
         }
     }
 
-    if (!empty($userName)){
+    if (!empty($userName)) {
 
         $userName = str_replace(' ', '', $userName);
 
-       // $isValid = preg_match("/^\p{L}*\s\p{L}*$/u", $name);
+        // $isValid = preg_match("/^\p{L}*\s\p{L}*$/u", $name);
 
         $isValid = preg_match(("/^[a-zA-Z]*$/"), $userName);
 
-        if ($isValid){
+        if ($isValid) {
 
-            $uidExists = uidExists($connection,$userName,$userName,$userID);
+            $uidExists = uidExists($connection, $userName, $userName, $userID);
 
-            if (!$uidExists){
+            if (!$uidExists) {
                 $sqlQuery = "UPDATE users SET usersUID='$userName' WHERE usersID = '$userID'";
-                $result = mysqli_query($connection,$sqlQuery);
+                $result = mysqli_query($connection, $sqlQuery);
 
                 $sqlQueryComments = "UPDATE comments SET author='$userName' WHERE author='$userUID'";
-                $result = mysqli_query($connection,$sqlQueryComments);
+                $result = mysqli_query($connection, $sqlQueryComments);
 
                 $_SESSION["userUID"] = $userName;
             } else {
@@ -98,7 +98,6 @@ if (isset($_POST["submit"])){
         }
 
     }
-
 
 
     header("location: ../profile.php");

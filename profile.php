@@ -7,7 +7,7 @@ if (!isset($_SESSION["userUID"])){
     exit();
 }
 
-$sqlQuery = "SELECT usersName,usersEmail,usersUID FROM users WHERE usersID = '$userID'";
+$sqlQuery = "SELECT usersName,usersEmail,usersUID,isAdmin FROM users WHERE usersID = '$userID'";
 $result = mysqli_query($connection, $sqlQuery);
 $row = mysqli_fetch_assoc($result);
 ?>
@@ -49,15 +49,20 @@ $row = mysqli_fetch_assoc($result);
 
         </section>
 
-
-
     </section>
-
 
 </div>
 
 <section class="buttonMyComments">
         <a href="myComments.php">Show my comments</a>
 </section>
+
+<?php
+if ($row['isAdmin'] === '1'){
+    echo '<section class="adminSection">';
+    echo '<a href="adminSection.php">Show me some stuff for admin</a>';
+    echo '</section>';
+}
+?>
 
 <?php include_once 'footer.php' ?>

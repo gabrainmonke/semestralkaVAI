@@ -1,5 +1,4 @@
 $(document).ready(function (){
-
     var commentCount = 0;
 
     $("a").on("click",function (e){

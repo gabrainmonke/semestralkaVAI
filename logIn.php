@@ -1,4 +1,12 @@
-<?php include_once 'header.php' ?>
+<?php include_once 'header.php' ;
+include_once "includes/DBconnection.php";
+
+if (isset($_SESSION["userUID"])){
+    header("Location: http://localhost/semestralkaVAI/profile.php");
+    exit();
+}
+
+?>
 
     <section class="contentWrapper logIn">
         <div class="logInContainer">
