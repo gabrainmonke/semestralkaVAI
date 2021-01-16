@@ -2,7 +2,7 @@
 include_once "includes/DBconnection.php";
 $userID = $_SESSION["userID"];
 
-if (!isset($_SESSION["userUID"])){
+if (!isset($_SESSION["userUID"])) {
     header("Location: http://localhost/semestralkaVAI/login.php");
     exit();
 }
@@ -27,20 +27,20 @@ $row = mysqli_fetch_assoc($result);
 
         <section class="profileData">
             <div class="usersFullName">
-                <?php
-                echo  "<p> Full name: <b>" . $row['usersName'] . "</b></p>";
-                ?>
+
+                <p> Full name: <b> <?= $row['usersName'] ?></b></p>
+
             </div>
 
             <div class="usersEmail">
-                <?php
-                echo  "<p>Email: <b>" . $row['usersEmail'] . "</b></p>";
-                ?>
+
+                <p>Email: <b> <?= $row['usersEmail'] ?></b></p>
+
             </div>
             <div class="usersUserName">
-                <?php
-                echo  "<p>Username: <b>" . $row['usersUID'] . "</b></p>";
-                ?>
+
+                <p>Username: <b> <?= $row['usersUID'] ?></b></p>
+
             </div>
             <div class="links">
                 <a href="editProfile.php">Edit profile</a>
@@ -53,15 +53,21 @@ $row = mysqli_fetch_assoc($result);
 
 </div>
 
+
 <section class="buttonMyComments">
-        <a href="myComments.php">Show my comments</a>
+    <a href="myComments.php">Show my comments</a>
 </section>
 
+
 <?php
-if ($row['isAdmin'] === '1'){
-    echo '<section class="adminSection">';
-    echo '<a href="adminSection.php">Show me some stuff for admin</a>';
-    echo '</section>';
+if ($row['isAdmin'] === '1') {
+    ?>
+
+    <section class="adminSection">
+        <a href="adminSection.php">Admin section</a>
+    </section>
+
+    <?php
 }
 ?>
 

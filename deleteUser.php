@@ -19,12 +19,12 @@ if ($row['isAdmin'] !== '1') {
 
 <div class="contentWrapper">
     <section class="deleteProfile">
-        <h2>Are you sure, that you want to delete this comment?</h2>
+        <h2>Are you sure, that you want to delete this user?</h2>
 
         <div class="deleteForm">
             <form method="post">
-                <button type="submit" name="yesDeleteComment">Yes</button>
-                <button type="submit" name="noDeleteComment">No</button>
+                <button type="submit" name="yesDeleteUser">Yes</button>
+                <button type="submit" name="noDeleteUser">No</button>
             </form>
         </div>
 
@@ -34,17 +34,17 @@ if ($row['isAdmin'] !== '1') {
 <?php
 include_once 'includes/DBconnection.php';
 
-if (isset($_POST["yesDeleteComment"])){
+if (isset($_POST["yesDeleteUser"])){
 
 
-    $sqlQuery = "DELETE FROM comments WHERE ID='".$_GET['ID']."'";
+    $sqlQuery = "DELETE FROM users WHERE usersID='".$_GET['usersID']."'";
     mysqli_query($connection,$sqlQuery);
 
     header("location: adminSection.php");
     exit();
 }
 
-if (isset($_POST["noDeleteComment"])){
+if (isset($_POST["noDeleteUser"])){
     header("location: adminSection.php");
     exit();
 }

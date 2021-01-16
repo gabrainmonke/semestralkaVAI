@@ -1,17 +1,17 @@
-*{
+* {
     font-family: 'Lato', serif;
 }
 
-body{
-    margin: 0 auto ;
+body {
+    margin: 0 auto;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
@@ -26,11 +26,11 @@ header {
     padding: 1em 0;
 }
 
-p{
+p {
     text-align: justify;
 }
 
-.navigation{
+.navigation {
     text-align: center;
 
 }
@@ -42,31 +42,31 @@ p{
     font-weight: 700;
 }
 
-.navigation ul{
+.navigation ul {
     display: flex;
     justify-content: space-around;
 }
 
-.navigation a{
+.navigation a {
     text-decoration: none;
     color: white;
 }
 
-.navigation a:hover{
+.navigation a:hover {
     text-shadow: 2px 2px red;
     border-bottom: 2px solid white;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
 }
 
-.theMenu{
+.theMenu {
     width: 60%;
 }
 
-.loginMenu{
+.loginMenu {
     width: 25%;
 }
 
@@ -75,7 +75,7 @@ nav{
     FOOTER
 ************/
 
-footer{
+footer {
     height: 4em;
     background-color: black;
     margin-top: 2em;
@@ -93,18 +93,18 @@ footer{
 
 .logIn h2,
 .signUp h2,
-.editProfile h2{
+.editProfile h2 {
     text-align: center;
 }
 
-.logInContainer{
+.logInContainer {
     padding: 3em;
     background-color: lightgray;
     border-radius: 0.6em;
 }
 
 .logIn button,
-.signUp button{
+.signUp button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -115,11 +115,11 @@ footer{
 }
 
 .logIn button:hover,
-.signUp button:hover{
+.signUp button:hover {
     background-color: #156717;
 }
 
-.contentWrapper{
+.contentWrapper {
     min-height: 47.8em;
     display: flex;
     align-items: center;
@@ -128,27 +128,27 @@ footer{
 
 .logInForm,
 .signUpForm,
-.editForm{
+.editForm {
     width: 100%;
     text-align: center;
 }
 
 .logIn input,
 .signUp input,
-.editProfile input{
+.editProfile input {
     width: 90%;
     padding: 0.9em;
     margin: 1.5em 0.5em;
 }
 
-input:hover{
+input:hover {
     border: solid 2px black;
-    border-radius:0.3em;
+    border-radius: 0.3em;
 }
 
 .signUp p,
 .logIn p,
-.editProfile p{
+.editProfile p {
     text-align: center;
     font-size: 1.5em;
 }
@@ -157,7 +157,7 @@ input:hover{
     PROFILE
 *****************/
 
-.profileContainer{
+.profileContainer {
     display: flex;
     justify-content: space-between;
     border: #156717 1px solid;
@@ -169,17 +169,17 @@ input:hover{
 
 .profileHead div,
 .profileHead p,
-.profileData{
+.profileData {
     text-align: center;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: space-around;
     padding: 1em;
 }
 
-.links a{
+.links a {
     padding: 1em 1.5em;
     background-color: #7aba81;
     border: none;
@@ -188,29 +188,48 @@ input:hover{
     border-radius: 0.3em;
 }
 
-.links a:hover{
+.links a:hover {
     background-color: #4ab554;
 }
 
-.profileData p{
+.profileData p {
     font-size: x-large;
     text-align: center;
 }
 
-.profileHead{
+.profileHead {
     width: 30%;
 }
 
-.profileHead img{
+.profileHead img {
     border-radius: 1em;
 }
 
-.profileData{
+.profileData {
     width: 65%;
 }
 
-.buttonMyComments{
+.buttonMyComments {
     text-align: center;
+}
+
+.adminSection{
+    margin-top: 4em;
+    text-align: center;
+}
+
+.adminSection a{
+    text-decoration: none;
+    padding: 1em 4em;
+    background-color: #44aaee;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+
+.adminSection a:hover{
+    box-shadow:3px 3px #2f80b0;
+    background-color: #60b2f3;
 }
 
 /**************
@@ -236,19 +255,20 @@ input:hover{
     margin-top: 2em;
 }
 
-.back button{
+.back button {
     padding: 0.5em 0.7em;
 }
+
 /**************
     DELETE
 ***************/
 
 .deleteForm button[type="submit"] {
-    padding: 0.5em 1em ;
+    padding: 0.5em 1em;
     border-radius: 0.3em;
 }
 
-.deleteForm form{
+.deleteForm form {
     display: flex;
     justify-content: space-evenly;
 }
@@ -257,25 +277,25 @@ input:hover{
     MAIN
 ***************/
 
-.container{
+.container {
     margin: auto;
     width: 90%;
 }
 
-.text{
+.text {
     display: flex;
     justify-content: space-between;
 }
 
-aside{
+aside {
     margin-top: 1em;
 }
 
-aside img{
+aside img {
     width: 100%;
 }
 
-article{
+article {
     width: 48%;
     margin-top: 1em;
     height: auto;
@@ -286,7 +306,7 @@ article{
 }
 
 article p,
-article h1{
+article h1 {
     margin: 0.7em;
 }
 
@@ -294,91 +314,92 @@ article h1{
     ABOUT ME
 ***************/
 
-.aboutMe{
+.aboutMe {
     text-align: center;
     padding: 5em 0 3em 0;
 }
 
-.myImg img{
+.myImg img {
     border-radius: 20px;
     margin-bottom: 4em;
 }
 
-.myInfo{
+.myInfo {
     margin-bottom: 2em;
     font-size: 1.2em;
 }
 
-.myInfo p{
+.myInfo p {
     text-align: center;
 }
 
 /**************
     GALLERY
 ***************/
-.selected{
+.selected {
     background-color: #426e49;
     color: white;
 }
 
-.commentSection h2{
+.commentSection h2 {
     text-align: center;
 }
 
 .comments,
-.newComment{
+.newComment {
     width: 90%;
     align-self: center;
     border-bottom: 1px solid black;
 }
-.newComment{
+
+.newComment {
     border: none;
 }
 
-.newComment input{
+.newComment input {
     width: 100%;
     padding: 0.5em;
     margin: 1em 0;
 }
 
-.postedComments{
+.postedComments {
     display: flex;
     flex-flow: column;
     margin-top: 2em;
 }
 
-.newCommentContainer{
+.newCommentContainer {
     display: flex;
     flex-flow: column;
     margin-top: 3em;
 }
 
-.showMore{
+.showMore {
     display: flex;
     justify-content: center;
     margin: 3em 0;
     padding-bottom: 1em;
 }
 
-.placeholder{
+.placeholder {
     font-size: 2em;
     display: flex;
     justify-content: space-around;
     horiz-align: center;
 }
 
-.obal{
+.obal {
     min-height: 900px;
 }
 
-.season{
+.season {
     margin: 1.5em 0 0.5em;
     display: flex;
     justify-content: center;
 }
 
 .showMore a,
-.buttonMyComments a{
+.buttonMyComments a {
     background-color: #454343;
     text-decoration: none;
     padding: 0.5em 1em;
@@ -386,30 +407,30 @@ article h1{
     border-radius: 3px;
 }
 
-.buttonMyComments a{
+.buttonMyComments a {
     padding: 1em 2em;
 }
 
 .showMore a:hover,
-.buttonMyComments a:hover{
+.buttonMyComments a:hover {
     background-color: #696767;
     box-shadow: black 3px 3px;
 }
 
-.season ul{
+.season ul {
     display: flex;
     justify-content: space-evenly;
     width: 60%;
 }
 
-.season li{
+.season li {
     border-radius: 3px;
     color: black;
     font-size: 1em;
     list-style: none;
 }
 
-.season a{
+.season a {
     text-decoration: none;
     padding: 1em 2em;
     border-radius: 3px;
@@ -418,7 +439,7 @@ article h1{
     font-weight: 700;
 }
 
-.season a:hover{
+.season a:hover {
     background-color: #426e49;
     color: #ffffff;
 }
@@ -426,7 +447,7 @@ article h1{
 .springImg,
 .summerImg,
 .autumnImg,
-.winterImg{
+.winterImg {
     text-align: center;
     padding: 1em 0;
 }
@@ -438,49 +459,50 @@ article h1{
     padding-top: 1em;
 }
 
-.springImg img:hover{
+.springImg img:hover {
     cursor: pointer;
     outline: 3px solid #82cd64;
 }
 
-.summerImg img:hover{
+.summerImg img:hover {
     cursor: pointer;
     outline: 3px solid #e3d324;
 }
 
-.autumnImg img:hover{
+.autumnImg img:hover {
     cursor: pointer;
     outline: 3px solid #f36b6b;
 }
 
-.winterImg img:hover{
+.winterImg img:hover {
     cursor: pointer;
     outline: 3px solid #a5b6f8;
 }
 
-.postedComments .comments{
+.postedComments .comments {
     margin-top: 2em;
 }
+
 /****************
     MY COMMENTS
 *****************/
 
-.myComments{
+.myComments {
     min-height: 740px;
     display: flex;
     justify-content: space-around;
     margin: 2em 0;
 }
 
-.myCommentsContainer{
+.myCommentsContainer {
     width: 70%;
 }
 
-.myCommentsContainer p{
+.myCommentsContainer p {
     margin: 3em 1em;
 }
 
-.myCommentsContainer div{
+.myCommentsContainer div {
     border-top: black 1px solid;
 }
 
@@ -488,14 +510,33 @@ article h1{
     ADMIN
 ***************/
 
-.adminContainer{
-    min-height: 750px;
-
+.adminName {
+    font-size: 1.5em;
 }
 
+.adminName p {
+    text-align: center;
+}
 
+.adminContainer {
+    min-height: 750px;
+}
 
+.registeredUsers {
+    width: 70%;
+    margin: 0 auto;
+}
 
+.adminContainer strong,
+.adminContainer a{
+    margin-left: 1em;
+}
+
+.adminContainer a:hover{
+    color: #56d03a;
+    outline: #44aaee 2px solid;
+    outline-offset: 3px;
+}
 /********************
 
 *media queries
@@ -507,7 +548,7 @@ article h1{
     .springImg img,
     .summerImg img,
     .autumnImg img,
-    .winterImg img{
+    .winterImg img {
         width: 45%;
     }
 
@@ -515,10 +556,11 @@ article h1{
 
 @media screen and (max-width: 900px) {
 
-    .text{
+    .text {
         flex-flow: column;
     }
-    .prvy{
+
+    .prvy {
         width: 100%;
     }
 

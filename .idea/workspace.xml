@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 16 - finished">
-      <change afterPath="$PROJECT_DIR$/adminSection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deleteComment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deleteUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminSection.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminSection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteComment.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteComment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/includes/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/editDocScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/editDocScript.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/js/loadComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/includes/js/loadComments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/logIn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +149,7 @@
       <workItem from="1610628168830" duration="749000" />
       <workItem from="1610714053683" duration="5835000" />
       <workItem from="1610738176330" duration="1814000" />
-      <workItem from="1610795931918" duration="6328000" />
+      <workItem from="1610795931918" duration="12754000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -343,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610743446191</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="admin sekcia (mazanie komentárov)">
+      <created>1610818231267</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610818231267</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +367,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="prvy upload" />
     <MESSAGE value="druhy upload" />
     <MESSAGE value="treti upload" />
     <MESSAGE value="update 4" />
@@ -388,7 +391,8 @@
     <MESSAGE value="galéria koment sekcia hotová" />
     <MESSAGE value="oprava editácie usernamu v databáze komentárov + sekcia na vlastné komentáre" />
     <MESSAGE value="oprava pri zmenení usernamu pre databázu" />
-    <option name="LAST_COMMIT_MESSAGE" value="oprava pri zmenení usernamu pre databázu" />
+    <MESSAGE value="admin sekcia (mazanie komentárov)" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin sekcia (mazanie komentárov)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
@@ -443,10 +447,10 @@
     </state>
     <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610048744534" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606159528105" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610743450417">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610818233627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610743450417" />
+    <state x="998" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610818233626" />
     <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606160561386" />
     <state x="571" y="188" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610018460028">
       <screen x="0" y="0" width="1920" height="1040" />
