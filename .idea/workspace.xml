@@ -21,17 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 16 - finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminSection.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminSection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteComment.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteComment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteProfile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/editProfile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/js/loadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/includes/js/loadContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/logIn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myComments.php" beforeDir="false" afterPath="$PROJECT_DIR$/myComments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +148,8 @@
       <workItem from="1610795931918" duration="13602000" />
       <workItem from="1610833794135" duration="14386000" />
       <workItem from="1610889900511" duration="298000" />
-      <workItem from="1610893605792" duration="333000" />
+      <workItem from="1610893605792" duration="413000" />
+      <workItem from="1610894097184" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -370,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610888681527</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="doladenie">
+      <created>1610894013494</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610894013494</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,8 +388,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update 4" />
-    <MESSAGE value="update 5" />
     <MESSAGE value="update 6" />
     <MESSAGE value="update 7" />
     <MESSAGE value="update 8" />
@@ -415,7 +411,9 @@
     <MESSAGE value="admin sekcia (mazanie komentárov)" />
     <MESSAGE value="admin sekcia (mazanie pouzivatelov)" />
     <MESSAGE value="Dokončenie projektu (javaScript)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dokončenie projektu (javaScript)" />
+    <MESSAGE value="doladenie" />
+    <MESSAGE value="uprava selectoru" />
+    <option name="LAST_COMMIT_MESSAGE" value="uprava selectoru" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
