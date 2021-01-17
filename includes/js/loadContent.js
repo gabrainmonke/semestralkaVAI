@@ -4,7 +4,7 @@ $(document).ready(function () {
         url = window.location.href,
         filename = url.split('/').pop();
 
-    $("a").on("click", function (e) {
+    $("a .show").on("click", function (e) {
 
         switch (filename) {
             case 'gallery.php':

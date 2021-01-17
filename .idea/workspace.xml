@@ -20,16 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 16 - finished">
-      <change afterPath="$PROJECT_DIR$/includes/js/backToTop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/loadMainContent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminSection.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminSection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteComment.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteComment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteProfile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/editProfile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/includes/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/js/galleryAjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/includes/js/galleryAjax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/js/loadComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/includes/js/loadContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/loadCommentsScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/loadCommentsScript.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/js/loadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/includes/js/loadContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/logIn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myComments.php" beforeDir="false" afterPath="$PROJECT_DIR$/myComments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +156,9 @@
       <workItem from="1610714053683" duration="5835000" />
       <workItem from="1610738176330" duration="1814000" />
       <workItem from="1610795931918" duration="13602000" />
-      <workItem from="1610833794135" duration="14230000" />
+      <workItem from="1610833794135" duration="14386000" />
+      <workItem from="1610889900511" duration="298000" />
+      <workItem from="1610893605792" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -359,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610825454986</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Dokončenie projektu (javaScript)">
+      <created>1610888681527</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610888681527</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +390,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="treti upload" />
     <MESSAGE value="update 4" />
     <MESSAGE value="update 5" />
     <MESSAGE value="update 6" />
@@ -404,7 +414,8 @@
     <MESSAGE value="oprava pri zmenení usernamu pre databázu" />
     <MESSAGE value="admin sekcia (mazanie komentárov)" />
     <MESSAGE value="admin sekcia (mazanie pouzivatelov)" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin sekcia (mazanie pouzivatelov)" />
+    <MESSAGE value="Dokončenie projektu (javaScript)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dokončenie projektu (javaScript)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
@@ -459,10 +470,10 @@
     </state>
     <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610048744534" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606159528105" />
-    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610818233627">
+    <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2" timestamp="1610888684529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610818233626" />
+    <state x="998" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610888684529" />
     <state x="998" y="252" width="922" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606160561386" />
     <state x="571" y="188" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610018460028">
       <screen x="0" y="0" width="1920" height="1040" />

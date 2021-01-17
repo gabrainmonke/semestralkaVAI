@@ -7,7 +7,7 @@ $result = mysqli_query($connection, $sqlQuery);
 $row = mysqli_fetch_assoc($result);
 
 if ($row['isAdmin'] !== '1') {
-    header("Location: http://localhost/semestralkaVAI/login.php");
+    header("Location: login.php");
     exit();
 }
 

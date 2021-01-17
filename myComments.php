@@ -6,7 +6,7 @@ $userID = $_SESSION["userID"];
 $userUID = $_SESSION["userUID"];
 
 if (!isset($_SESSION["userUID"])){
-    header("Location: http://localhost/semestralkaVAI/login.php");
+    header("Location: login.php");
     exit();
 }
 

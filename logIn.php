@@ -2,7 +2,7 @@
 include_once "includes/DBconnection.php";
 
 if (isset($_SESSION["userUID"])){
-    header("Location: http://localhost/semestralkaVAI/profile.php");
+    header("Location: profile.php");
     exit();
 }
 

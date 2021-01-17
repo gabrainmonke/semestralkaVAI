@@ -37,7 +37,7 @@ include_once "includes/DBconnection.php";
         </div>
 
         <div class="showMore">
-            <a href=" " onclick="return false">Show more content</a>
+            <a href=" " onclick="return false" class="show">Show more content</a>
         </div>
     </div>
 <?php require_once 'footer.php' ?>

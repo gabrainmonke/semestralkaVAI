@@ -1,7 +1,7 @@
 <?php include_once 'header.php';
 
 if (!isset($_SESSION["userUID"])){
-    header("Location: http://localhost/semestralkaVAI/login.php");
+    header("Location: login.php");
     exit();
 }
 include_once "includes/DBconnection.php";

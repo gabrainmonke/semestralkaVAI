@@ -61,7 +61,7 @@ include_once "includes/DBconnection.php";
             </div>
 
             <div class="showMore">
-                <a href=" " onclick="return false">Show more comments</a>
+                <a href=" " onclick="return false" class ="show">Show more comments</a>
             </div>
 
         </div>
