@@ -31,29 +31,30 @@ include_once "includes/DBconnection.php";
 
             <h2>Section for comments</h2>
             <div class="newCommentContainer">
-            <?php
-            if (!isset($_SESSION["userUID"])) {
-                echo "You need to be logged in to write new comments";
-            } else {
-                $userID = $_SESSION["userID"];
+                <?php
+                if (!isset($_SESSION["userUID"])) {
+                    echo "You need to be logged in to write new comments";
+                } else {
+                    $userID = $_SESSION["userID"];
 
-                $sqlQuery = "SELECT usersUID FROM users WHERE usersID = '$userID'";
-                $result = mysqli_query($connection, $sqlQuery);
-                $row = mysqli_fetch_assoc($result);
+                    $sqlQuery = "SELECT usersUID FROM users WHERE usersID = '$userID'";
+                    $result = mysqli_query($connection, $sqlQuery);
+                    $row = mysqli_fetch_assoc($result);
 
-                $userName = $row['usersUID'];
-
-                echo  '<div class="newComment" >';
-                echo   '<h3>New comment</h3>';
-                echo       '<form action = "includes/sendCommentDocScript.php" method="post">';
-                echo        "You are writing comment as ".'<strong>'.$userName.'</strong>';
-                echo        "<input type = 'text'  name = 'author' value = '$userName' hidden> ";
-                echo        '<input type = "text" name = "message" placeholder="Write your thought" required>';
-                echo        '<button type="submit" name="submit"> Send comment </button >';
-                echo   ' </form >';
-                echo  '</div >';
+                    $userName = $row['usersUID'];
+                    ?>
+                    <div class="newComment">
+                        <h3>New comment</h3>
+                        <form action="includes/sendCommentDocScript.php" method="post">
+                            You are writing comment as <strong> <?= $userName ?></strong>
+                            <input type='text' name='author' value='<?= $userName ?>' hidden>
+                            <input type="text" name="message" placeholder="Write your thought" required>
+                            <button type="submit" name="submit"> Send comment</button>
+                        </form>
+                    </div>
+                    <?php
                 }
-            ?>
+                ?>
             </div>
             <div class="postedComments">
 

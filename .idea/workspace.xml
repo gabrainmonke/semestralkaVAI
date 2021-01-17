@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19db7f48-3514-494f-977e-a3925e0bc869" name="Default Changelist" comment="update 16 - finished">
-      <change afterPath="$PROJECT_DIR$/deleteUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/js/backToTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/loadMainContent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminSection.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminSection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteComment.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteComment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/includes/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/js/galleryAjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/includes/js/galleryAjax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/js/loadComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/includes/js/loadContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/loadCommentsScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/loadCommentsScript.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,17 +76,17 @@
     <property name="settings.editor.selected.configurable" value="Console" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\semestralkaVAI\includes\js" />
+      <recent name="C:\xampp\htdocs\semestralkaVAI\includes\css" />
+      <recent name="C:\xampp\htdocs\semestralkaVAI" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\semestralkaVAI\includes" />
       <recent name="C:\xampp\htdocs\semestralkaVAI\includes\galleryContent" />
       <recent name="C:\xampp\htdocs\semestralkaVAI" />
       <recent name="C:\xampp\htdocs\semestralkaVAI\gallery" />
       <recent name="C:\laragon\server\semestralkaVAI" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\semestralkaVAI\includes\js" />
-      <recent name="C:\xampp\htdocs\semestralkaVAI\includes\css" />
-      <recent name="C:\xampp\htdocs\semestralkaVAI" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -149,7 +153,8 @@
       <workItem from="1610628168830" duration="749000" />
       <workItem from="1610714053683" duration="5835000" />
       <workItem from="1610738176330" duration="1814000" />
-      <workItem from="1610795931918" duration="12754000" />
+      <workItem from="1610795931918" duration="13602000" />
+      <workItem from="1610833794135" duration="14230000" />
     </task>
     <task id="LOCAL-00001" summary="prvy upload">
       <created>1602335141753</created>
@@ -347,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610818231267</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="admin sekcia (mazanie pouzivatelov)">
+      <created>1610825454986</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1610825454986</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +379,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="druhy upload" />
     <MESSAGE value="treti upload" />
     <MESSAGE value="update 4" />
     <MESSAGE value="update 5" />
@@ -392,7 +403,8 @@
     <MESSAGE value="oprava editácie usernamu v databáze komentárov + sekcia na vlastné komentáre" />
     <MESSAGE value="oprava pri zmenení usernamu pre databázu" />
     <MESSAGE value="admin sekcia (mazanie komentárov)" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin sekcia (mazanie komentárov)" />
+    <MESSAGE value="admin sekcia (mazanie pouzivatelov)" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin sekcia (mazanie pouzivatelov)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="201" key="#Inspections" timestamp="1605562004660">
@@ -437,10 +449,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1444" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602334723013" />
-    <state x="1189" y="446" key="NewPhpFileDialog" timestamp="1610620398008">
+    <state x="1189" y="446" key="NewPhpFileDialog" timestamp="1610878486894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1189" y="446" key="NewPhpFileDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610620398008" />
+    <state x="1189" y="446" key="NewPhpFileDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610878486894" />
     <state x="1189" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605570351255" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1610048744534">
       <screen x="0" y="0" width="1920" height="1040" />

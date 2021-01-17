@@ -15,6 +15,10 @@ button:hover {
     cursor: pointer;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /***********
     HEADER
 ************/
@@ -85,6 +89,55 @@ footer {
     align-items: center;
     color: white;
     border: black 1px solid;
+}
+
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 0.2em;
+    right: 0.5em;
+    font-size: 3em;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20%;
+}
+
+#backToTop:hover,
+#backToTop:focus {
+    color: #959ad0;
+}
+
+.btnFadeIn {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: btnFadeIn;
+}
+
+@keyframes btnFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.2, 0.2);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.btnFadeOut{
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnFadeOut;
+}
+
+@keyframes btnFadeOut {
+    from {
+        opacity: 1;
+
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.2, 0.2);
+    }
 }
 
 /******************
@@ -213,12 +266,12 @@ input:hover {
     text-align: center;
 }
 
-.adminSection{
+.adminSection {
     margin-top: 4em;
     text-align: center;
 }
 
-.adminSection a{
+.adminSection a {
     text-decoration: none;
     padding: 1em 4em;
     background-color: #44aaee;
@@ -227,8 +280,8 @@ input:hover {
     border-radius: 3px;
 }
 
-.adminSection a:hover{
-    box-shadow:3px 3px #2f80b0;
+.adminSection a:hover {
+    box-shadow: 3px 3px #2f80b0;
     background-color: #60b2f3;
 }
 
@@ -282,33 +335,31 @@ input:hover {
     width: 90%;
 }
 
-.text {
+.uvod {
+    text-align: center;
+    min-height: 100px;
+    margin-top: 3em;
+}
+
+.article {
+    width: 70%;
+    margin: 1em 0;
+    padding: 3em;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #cdd2d2;
+
+}
+
+.articleContainer {
     display: flex;
-    justify-content: space-between;
+    flex-flow: column;
 }
 
-aside {
-    margin-top: 1em;
+.article p {
+    margin-top: 3em;
 }
 
-aside img {
-    width: 100%;
-}
-
-article {
-    width: 48%;
-    margin-top: 1em;
-    height: auto;
-    background-color: #F0EFED;
-    border-radius: 10px;
-    font-family: serif;
-    font-size: 1.1em;
-}
-
-article p,
-article h1 {
-    margin: 0.7em;
-}
 
 /**************
     ABOUT ME
@@ -528,15 +579,16 @@ article h1 {
 }
 
 .adminContainer strong,
-.adminContainer a{
+.adminContainer a {
     margin-left: 1em;
 }
 
-.adminContainer a:hover{
+.adminContainer a:hover {
     color: #56d03a;
     outline: #44aaee 2px solid;
     outline-offset: 3px;
 }
+
 /********************
 
 *media queries
