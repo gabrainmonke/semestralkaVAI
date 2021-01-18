@@ -436,7 +436,6 @@ input:hover {
     font-size: 2em;
     display: flex;
     justify-content: space-around;
-    horiz-align: center;
 }
 
 .obal {

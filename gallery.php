@@ -14,16 +14,16 @@ include_once "includes/DBconnection.php";
                 </ul>
             </div>
 
-            <section class="images">
+            <div class="images">
 
                 <div class="placeholder">
                     <div>
-                        <p class=>Vyberte si galériu</p>
+                        <p >Vyberte si galériu</p>
                         <img src="includes/galleryContent/placeholder.jpg" alt="">
                     </div>
                 </div>
 
-            </section>
+            </div>
         </div>
     </div>
     <section class="commentSection">

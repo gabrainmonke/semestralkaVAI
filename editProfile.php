@@ -18,24 +18,27 @@ $row = mysqli_fetch_assoc($result);
         <div class="editForm">
             <form action="includes/editDocScript.php" method="post">
                 <div>
-                    <label for="name"> New full name</label>
-                    <input type="text" name="name"  maxlength="30" value="<?= $row['usersName']?>">
+                    <label for="name"> New full name
+                    <input id="name" type="text" name="name"  maxlength="30" value="<?= $row['usersName']?>">
+                    </label>
                 </div>
                 <div>
-                    <label for="name"> New email</label>
-                    <input type="text" name="email"  maxlength="30" value="<?= $row['usersEmail']?>">
+                    <label for="email"> New email
+                    <input id="email" name="email"  maxlength="30" value="<?= $row['usersEmail']?>">
+                    </label>
                 </div>
                 <div>
-                    <label for="name"> New username</label>
-                    <input type="text" name="uid" maxlength="30" value="<?= $row['usersUID']?>">
+                    <label for="username"> New username
+                    <input id="username" type="text" name="uid" maxlength="30" value="<?= $row['usersUID']?>">
+                    </label>
                 </div>
                     <button type="submit" name="submit">Edit </button>
 
             </form>
             <div class="back">
-                <a href="profile.php">
+                <form style="display: inline" action="profile.php" method="get">
                     <button>Back</button>
-                </a>
+                </form>
             </div>
         </div>
         <?php
